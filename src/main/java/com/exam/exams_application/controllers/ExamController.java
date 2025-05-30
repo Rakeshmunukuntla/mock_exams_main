@@ -35,7 +35,7 @@ public class ExamController {
             case "AWS"->"/exam-AWS.xml";
             case "TECHOPS"->"/exam-tech-ops.xml";
             case "SQL"->"/exam-sql.xml";
-            default -> throw new IllegalArgumentException("Invalid exam type");
+            default -> throw new IllegalArgumentException("Invalid exam type for given type");
         };
 
         Exam exam = ExamXmlParser.parseExamXml(xmlPath);

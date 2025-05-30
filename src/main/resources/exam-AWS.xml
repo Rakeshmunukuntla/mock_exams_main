@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exam>
+
+    <question id="0" type="single">
+        <qtext>What does AWS stand for?</qtext>
+        <choices>
+            <choice id="1">Advanced Web Services</choice>
+            <choice id="2">Amazon Web Services</choice>
+            <choice id="3">Application Web Server</choice>
+            <choice id="4">Automated Web Services</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="1" type="single">
+        <qtext>Which service is used for computing in AWS?</qtext>
+        <choices>
+            <choice id="1">Amazon RDS</choice>
+            <choice id="2">Amazon EC2</choice>
+            <choice id="3">Amazon S3</choice>
+            <choice id="4">Amazon CloudFront</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="2" type="multiple">
+        <qtext>Which of the following are storage services in AWS?</qtext>
+        <choices>
+            <choice id="1">Amazon S3</choice>
+            <choice id="2">Amazon Glacier</choice>
+            <choice id="3">Amazon ElastiCache</choice>
+            <choice id="4">Amazon EBS</choice>
+        </choices>
+        <answer>1,2,4</answer>
+    </question>
+
+    <question id="3" type="single">
+        <qtext>What does VPC stand for in AWS?</qtext>
+        <choices>
+            <choice id="1">Virtual Private Cloud</choice>
+            <choice id="2">Virtual Public Cloud</choice>
+            <choice id="3">Visible Private Cloud</choice>
+            <choice id="4">Visible Public Cloud</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="4" type="single">
+        <qtext>Which AWS service provides a fully managed container orchestration system?</qtext>
+        <choices>
+            <choice id="1">Elastic Beanstalk</choice>
+            <choice id="2">Amazon ECS</choice>
+            <choice id="3">AWS Lambda</choice>
+            <choice id="4">Amazon CloudWatch</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="5" type="multiple">
+        <qtext>Which AWS services are used for databases?</qtext>
+        <choices>
+            <choice id="1">Amazon RDS</choice>
+            <choice id="2">Amazon DynamoDB</choice>
+            <choice id="3">Amazon Redshift</choice>
+            <choice id="4">AWS CloudFormation</choice>
+        </choices>
+        <answer>1,2,3</answer>
+    </question>
+
+    <question id="6" type="single">
+        <qtext>What is the purpose of AWS IAM?</qtext>
+        <choices>
+            <choice id="1">Data storage management</choice>
+            <choice id="2">User access control</choice>
+            <choice id="3">Cost optimization</choice>
+            <choice id="4">Application deployment</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="7" type="single">
+        <qtext>Which service is used for content delivery in AWS?</qtext>
+        <choices>
+            <choice id="1">Amazon Route 53</choice>
+            <choice id="2">AWS CloudTrail</choice>
+            <choice id="3">Amazon CloudFront</choice>
+            <choice id="4">AWS Direct Connect</choice>
+        </choices>
+        <answer>3</answer>
+    </question>
+
+    <question id="8" type="single">
+        <qtext>What is the use of Amazon S3?</qtext>
+        <choices>
+            <choice id="1">Compute service</choice>
+            <choice id="2">Object storage service</choice>
+            <choice id="3">Database management</choice>
+            <choice id="4">Network configuration</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="9" type="single">
+        <qtext>AWS Lambda is an example of which type of computing?</qtext>
+        <choices>
+            <choice id="1">Infrastructure as a Service</choice>
+            <choice id="2">Platform as a Service</choice>
+            <choice id="3">Software as a Service</choice>
+            <choice id="4">Function as a Service</choice>
+        </choices>
+        <answer>4</answer>
+    </question>
+
+    <question id="10" type="multiple">
+        <qtext>Which AWS services offer machine learning capabilities?</qtext>
+        <choices>
+            <choice id="1">Amazon SageMaker</choice>
+            <choice id="2">AWS Rekognition</choice>
+            <choice id="3">AWS Comprehend</choice>
+            <choice id="4">Amazon RDS</choice>
+        </choices>
+        <answer>1,2,3</answer>
+    </question>
+
+    <question id="11" type="single">
+        <qtext>What type of service is Amazon CloudWatch?</qtext>
+        <choices>
+            <choice id="1">Monitoring service</choice>
+            <choice id="2">Migration service</choice>
+            <choice id="3">Networking service</choice>
+            <choice id="4">Compute service</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="12" type="single">
+        <qtext>Which AWS service is used for DNS management?</qtext>
+        <choices>
+            <choice id="1">Amazon VPC</choice>
+            <choice id="2">Amazon Route 53</choice>
+            <choice id="3">AWS Direct Connect</choice>
+            <choice id="4">AWS Batch</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="13" type="single">
+        <qtext>What is the main function of AWS CloudFormation?</qtext>
+        <choices>
+            <choice id="1">Deploy software applications</choice>
+            <choice id="2">Automate resource provisioning</choice>
+            <choice id="3">Manage cloud costs</choice>
+            <choice id="4">Monitor application performance</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="14" type="single">
+        <qtext>Which service does AWS Config provide?</qtext>
+        <choices>
+            <choice id="1">Security compliance</choice>
+            <choice id="2">User management</choice>
+            <choice id="3">Resource inventory and change tracking</choice>
+            <choice id="4">Data backup</choice>
+        </choices>
+        <answer>3</answer>
+    </question>
+
+    <question id="15" type="multiple">
+        <qtext>What are the benefits of AWS Auto Scaling?</qtext>
+        <choices>
+            <choice id="1">Automated instance scaling</choice>
+            <choice id="2">Cost efficiency</choice>
+            <choice id="3">Instance monitoring</choice>
+            <choice id="4">Resource optimization</choice>
+        </choices>
+        <answer>1,2,4</answer>
+    </question>
+
+    <question id="16" type="single">
+        <qtext>What is AWS Elastic Beanstalk used for?</qtext>
+        <choices>
+            <choice id="1">Storage service management</choice>
+            <choice id="2">Automatic application deployment</choice>
+            <choice id="3">Network security</choice>
+            <choice id="4">Data analysis</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="17" type="single">
+        <qtext>What is the primary use of AWS CloudTrail?</qtext>
+        <choices>
+            <choice id="1">Performance monitoring</choice>
+            <choice id="2">Security auditing</choice>
+            <choice id="3">Application deployment</choice>
+            <choice id="4">Data storage</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="18" type="single">
+        <qtext>In AWS, what is an AMI?</qtext>
+        <choices>
+            <choice id="1">Amazon Memory Instance</choice>
+            <choice id="2">Amazon Machine Image</choice>
+            <choice id="3">Amazon Migration Instance</choice>
+            <choice id="4">Amazon Managed Infrastructure</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="19" type="multiple">
+        <qtext>Which factors are key to AWS's scalability?</qtext>
+        <choices>
+            <choice id="1">Global infrastructure</choice>
+            <choice id="2">On-demand resources</choice>
+            <choice id="3">Fixed pricing</choice>
+            <choice id="4">Elastic resources</choice>
+        </choices>
+        <answer>1,2,4</answer>
+    </question>
+
+</exam>

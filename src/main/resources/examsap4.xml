@@ -1,0 +1,1228 @@
+<?xml version="1.0"?>
+
+<exam>
+
+    <question id="1">
+        <module>Promotions</module>
+        <qtext>Which of the following scenarios can be supported directly with the promotion module's out-of-the-box functionality?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">When you purchase 2 category X products, receive 30% off all category Y products.</choice>
+            <choice id="2">When you spend at least 200 dollars on category X products, get 30% off category Y products and category Z products.</choice>
+            <choice id="3">When you spend at least 200 dollars on category X products, and not more than 100 dollars on Category Y products, get 30% off all category Z products.</choice>
+            <choice id="4">When you buy 1 category X product and 1 category Y product, get 30% off any products added by CSA using the ASM module.</choice>
+        </choices>
+        <answer>1,2</answer>
+        <notes>
+            https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/e1391e5265574bfbb56ca4c0573ba1dc/792bbddc1a7c479eaf9e15d2699b6285.html
+        </notes>
+    </question>
+
+    <question id="2">
+        <module>Personalization</module>
+        <qtext>Which of the following relations are defined in the data model for Personalization (based on Smart Edit)?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">A one-to-many relation between CxCustomization and CxVariation</choice>
+            <choice id="2">A many-to-many relation between CxSegmentTrigger and CxSegment</choice>
+            <choice id="3">A one-to-many relation between CxExpression Trigger and CxSegment</choice>
+            <choice id="4">A many-to-many relation between CxVariation and CxAbstractAction</choice>
+        </choices>
+        <answer>1,2</answer>
+    </question>
+
+    <question id="3">
+        <module>Interceptors</module>
+        <qtext>Interceptors allow you to monitor and change the course of any model's lifecycle within SAP Commerce Cloud. However, for performance reasons, interceptors can also be disabled in API calls or with ImpEx. Which of the following are the correct properties to use when disabling interceptors?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">disable.interceptor.ids</choice>
+            <choice id="2">disable.interceptor.beans</choice>
+            <choice id="3">disable.interceptor.types</choice>
+            <choice id="4">disable.interceptor.for.types</choice>
+        </choices>
+        <answer>2,3</answer>
+        <notes>
+            https://help.sap.com/docs/SAP_COMMERCE/d0224eca81e249cb821f2cdf45a82ace/9ce1b60e12714a7dba6ea7e66b4f7acd.html
+        </notes>
+    </question>
+
+    <question id="4">
+        <module>Promotions</module>
+        <qtext>You are implementing a new custom promotion action that changes the delivery mode of an order. What steps are required to make sure that the effects of this action are reverted as soon as the condition that triggered it is NO longer fulfilled?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Implement the undo method in your custom rule action strategy.</choice>
+            <choice id="2">Implement your custom action item so that it can store the original delivery mode.</choice>
+            <choice id="3">Create a promotion that uses the inverse action if the condition is NOT fulfilled.</choice>
+            <choice id="4">Define a new session attribute to store the original delivery mode.</choice>
+        </choices>
+        <answer>1,4</answer>
+        <notes>
+            https://community.sap.com/t5/crm-and-cx-questions/new-custom-promotion-action-that-changes-delivery-mode/qaq-p/12296356
+        </notes>
+    </question>
+
+    <question id="5">
+        <module>Cache</module>
+        <qtext>Which configuration options are available on a cache region?</qtext>
+        <qnotes>There are 3 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Clustering enabled</choice>
+            <choice id="2">Eviction policy</choice>
+            <choice id="3">Persistence mode</choice>
+            <choice id="4">Statistics enabled</choice>
+            <choice id="5">Size</choice>
+        </choices>
+        <answer>2,4,5</answer>
+        <notes>
+            https://help.sap.com/docs/SAP_COMMERCE/d0224eca81e249cb821f2cdf45a82ace/576988a1ca9e42e3a86877ab2c5bcc49.html
+        </notes>
+    </question>
+
+    <question id="6">
+        <module>System Setup</module>
+        <qtext>Your solution has been live for a significant period of time. Now you need to update project data across multiple environments, but this update should be run only once. What is the recommended approach for updating the project data?</qtext>
+        <choices>
+            <choice id="1">Extract a SQL script of all the changes in a single environment, where a DBA can then run directly against the database for all remaining environments.</choice>
+            <choice id="2">With each deployment, manually import the ImpEx files through the Admin Console or through the ant importimpex target.</choice>
+            <choice id="3">Create a class that extends Abstract Patches SystemSetup and configure any data patches, to run an import of your ImpEx files during an update.</choice>
+            <choice id="4">Create a class that extends AbstractSystemSetup, and use the @SystemSetup annotation with TYPE.PROJECT, to run an import of your ImpEx files during an update.</choice>
+        </choices>
+        <answer>3</answer>
+        <notes>
+            https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/aa417173fe4a4ba5a473c93eb730a417/9e7e83c58a6748bbbf8b211f5622ac6b.html?q=AbstractPatchesSystemSetup
+        </notes>
+    </question>
+
+    <question id="7">
+        <module>WCMS</module>
+        <qtext>Which of the following is a mechanism used by WCMS to position components on a page?</qtext>
+        <choices>
+            <choice id="1">The component's CurrentPosition attribute is used to determine which component on the page in which the item should be displayed.</choice>
+            <choice id="2">The Page item has a position map that links each component to the component on the page in which the item should be displayed.</choice>
+            <choice id="3">The ContentSlot item's code property is used to determine the slot on the page where the item should be displayed.</choice>
+            <choice id="4">The position attribute in the ContentSlotFor Template item is used to identify the slot on the page where the item should be displayed.</choice>
+        </choices>
+        <answer>4</answer>
+        <notes>
+            https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/e1391e5265574bfbb56ca4c0573ba1dc/8b7cdc55866910149b09c285e4c2b1ed.html
+        </notes>
+    </question>
+
+    <question id="8">
+        <module>Classification Attributes</module>
+        <qtext>What are the advantages of using classification attributes?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Classification attributes are preferred in situations where there are more than two variance selectors.</choice>
+            <choice id="2">Certification attributes are more efficient, and they produce simpler queries and business logic.</choice>
+            <choice id="3">Technical users can create and modify classification attribute definitions using ImpEx.</choice>
+            <choice id="4">When modifying, rebuilding and redeployment are NOT required.</choice>
+        </choices>
+        <answer>3,4</answer>
+        <notes>
+            https://clavrit.com/blogs/classification-systems-in-sap-commerce/
+        </notes>
+    </question>
+
+    <question id="9">
+        <module>Catalogs</module>
+        <qtext>You have created your products and price rows using the approach displayed in the following ImpEx file. After you import this file, and synchronize the catalogs (Staged to Online), how many items are stored in the database?</qtext>
+        <choices>
+            <choice id="1">1000 products and 2000 price rows</choice>
+            <choice id="2">1000 products and 1000 price rows</choice>
+            <choice id="3">2000 products and 1000 price rows</choice>
+            <choice id="4">2000 products and 2000 price rows</choice>
+        </choices>
+        <answer>3</answer>
+    </question>
+
+    <question id="10">
+        <module>Widgets</module>
+        <qtext>What should you pay attention to when connecting widget A to widget B?</qtext>
+        <choices>
+            <choice id="1">The type of A's input socket should be the same as B's output socket.</choice>
+            <choice id="2">The type of A's output socket must match B's input socket, using either inheritance or Java generics.</choice>
+            <choice id="3">The type of A's output socket must be the same as B's input socket</choice>
+            <choice id="4">Both A's output socket type and B's input socket type must be a composed item type.</choice>
+        </choices>
+        <answer>3</answer>
+        <notes>
+            https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/9b5366ff6eb34df5be29881ff55f97d2/633a1253bf3844eea4ac13f681c198da.html
+        </notes>
+    </question>
+
+    <question id="11">
+        <module>Workflow</module>
+        <qtext>How do we create and start a workflow flow based on a workflow template?</qtext>
+        <qnotes>There are 3 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Use the "Create Workflow" button in the List view of the Workflows workspace.</choice>
+            <choice id="2">Implement an activation script in the workflow template</choice>
+            <choice id="3">Use WorkflowService to create and start a workflow</choice>
+            <choice id="4">Use WorkflowProcessing Service to create and start a workflow</choice>
+            <choice id="5">Use the "Create Workflow" button in the Editor area of the selected workflow template in Backoffice.</choice>
+        </choices>
+        <answer>1,3,5</answer>
+        <notes>
+            https://help.sap.com/docs/SAP_COMMERCE/9d346683b0084da2938be8a285c0c27a/d7b71df1887a4e8d81c320094ce75d04.html
+            https://help.sap.com/docs/SAP_COMMERCE/d0224eca81e249cb821f2cdf45a82ace/8be1996586691014bf8f817a45b25d17.html
+        </notes>
+    </question>
+
+    <question id="12">
+        <module>Webhooks</module>
+        <qtext>What considerations are important when implementing a webhook in SAP Commerce Cloud?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">A webhook can be configured to trigger on data creation, update, or deletion.</choice>
+            <choice id="2">Webhooks require the integration object to be defined as the payload framework.</choice>
+            <choice id="3">Webhooks can only notify external systems through synchronous calling.</choice>
+            <choice id="4">It is necessary to ensure the consuming destination is always available to receive notifications.</choice>
+        </choices>
+        <answer>1,2</answer>
+        <notes>
+            https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/bad9b0b66bac476f8a4a5c4a08e4ab6b/461d8cfe95f5442880491e2cad0a4831.html
+        </notes>
+    </question>
+
+    <question id="13">
+        <module>Webhooks</module>
+        <qtext>What should you pay attention to when you are working with a web hook?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">A webhook guarantees the At Least Once (ALO) delivery principle, and concurrent events are not completely discarded.</choice>
+            <choice id="2">A webhook requires an integration object as the notification payload, and the consumed destination as the webhook subscriber.</choice>
+            <choice id="3">A webhook uses the optional filter attribute to control which consumed destination will receive notifications.</choice>
+            <choice id="4">A webhook can be configured to send notifications when an item is created, updated, or deleted.</choice>
+        </choices>
+        <answer>2,4</answer>
+        <notes>
+            https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/bad9b0b66bac476f8a4a5c4a08e4ab6b/711e753f2fb546c5b88ed6c3b8dfb116.html
+            https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/bad9b0b66bac476f8a4a5c4a08e4ab6b/86b7d85633f948f9ae6b1d7a4cb7b0fa.html
+        </notes>
+    </question>
+
+    <question id="14">
+        <module>Product Modeling</module>
+        <qtext>The miniature car replicas that your company sells on its site are now available in a choice of colors, each at a different price point. You want your product page to let your customers select the color before adding the replica to the cart. To complicate things, your boss won't let you restart your production servers to add this functionality. What entities would you have to create to achieve this?</qtext>
+        <choices>
+            <choice id="1">A Composed Type, that extends the Variant Product type to add a color attribute, and an instance of this type for each color that a given replica is available in</choice>
+            <choice id="2">A ConfigurationCategory, an AbstractConfigurator Setting for color, a Configurator Type, and an OrderEntryProductinfo for each color that a given replica is available in.</choice>
+            <choice id="3">A ClassificationCategory, a ClassificationAttribute for color, a ClassificationAttributeUnit, a ClassificationAttributeValue for each color that a given replica is available in, plus a Class AttributeAssignmentModel instance to tie them together</choice>
+            <choice id="4">A VariantCategory for color, a VariantValueCategory for each color option, and a Generic Variant Product for each color that a given replica is available in.</choice>
+        </choices>
+        <answer>3</answer>
+        <notes>
+            Please refer to classification categories in SAP documentation
+        </notes>
+    </question>
+
+    <question id="15">
+        <module>Manifest Configuration</module>
+        <qtext>When you are defining properties in manifest json, which of the following attributes are you allowed to use?</qtext>
+        <qnotes>There are 3 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">persona</choice>
+            <choice id="2">value</choice>
+            <choice id="3">key</choice>
+            <choice id="4">environment</choice>
+            <choice id="5">name</choice>
+        </choices>
+        <answer>1,2,3</answer>
+        <notes>
+            https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/1be46286b36a4aa48205be5a96240672/8f494fb9617346188ddf21a971db84fc.html
+        </notes>
+    </question>
+
+    <question id="16">
+        <module>Project Setup</module>
+        <qtext>The build process in SAP Commerce Cloud looks for project customizations (e.g., for custom extensions or composable storefront) in a project repository. What are the recommended principles for setting up the project repository?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">A manifest json file is located in the root directory to specify build properties for all customizations.</choice>
+            <choice id="2">A manifest json file is placed under a separate subdirectory for each customization</choice>
+            <choice id="3">A core-customize folder is created in the root directory for SAP Commerce Cloud customizations.</choice>
+            <choice id="4">A single root directory is created with JavaScript storefront support</choice>
+        </choices>
+        <answer>2,3</answer>
+        <notes>
+            https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/1be46286b36a4aa48205be5a96240672/e1329e58d7844b808f2819f7e59f5434.html#loioe1329e58d7844b808f2819f7e59f5434
+        </notes>
+    </question>
+
+    <question id="17">
+        <module>CMS Components</module>
+        <qtext>You want to display a custom CMS component in SAP Commerce Cloud, composable storefront. What can be configured or implemented regarding this CMS component?</qtext>
+        <qnotes>There are 3 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Create an HTML template to render the CMS component</choice>
+            <choice id="2">Map the Angular component to the CMS component in the cmsComponentRegistry</choice>
+            <choice id="3">Define the new CMS component type in *-items.xml</choice>
+            <choice id="4">Create a CMS component controller in the cmsComponentController Registry</choice>
+            <choice id="5">Implement a TypeScript class for a custom Angular component</choice>
+        </choices>
+        <answer>1,2,3</answer>
+        <notes>
+            https://help.sap.com/docs/SAP_COMMERCE_COMPOSABLE_STOREFRONT/eaef8c61b6d9477daf75bff9ac1b7eb4/0bae2d8109d945d5a03743ed3f53ea7a.html#loioc2b5363dc1cf4029974351adb1eedf04
+        </notes>
+    </question>
+
+    <question id="18">
+        <module>Entity Cache</module>
+        <qtext>What causes item data to be invalidated in the SAP Commerce Cloud entity cache?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Calling the modelService.create() method passing a Model class</choice>
+            <choice id="2">Calling the modelService.save() method passing an item model</choice>
+            <choice id="3">Calling a setter method on a Model class</choice>
+            <choice id="4">Receiving an invalidation notification for the item through cluster messaging</choice>
+        </choices>
+        <answer>2,4</answer>
+        <notes>
+            https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/aa417173fe4a4ba5a473c93eb730a417/b50d73d079fb42b4a1dd2ec59393f63e.html
+        </notes>
+    </question>
+
+    <question id="19">
+        <module>Integration UI Tool</module>
+        <qtext>What operations can you perform on an integration object in the Type modeling workspace of Backoffice's Integration UI Tool?</qtext>
+        <qnotes>There are 3 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Create a new virtual attribute and link the calculation logic to a script object.</choice>
+            <choice id="2">Authorize users and manage integration object access rights.</choice>
+            <choice id="3">Control how data search should be restricted regarding type hierarchies.</choice>
+            <choice id="4">Change the EDMX file in the EDMX editor using the Metadata viewer.</choice>
+            <choice id="5">Download the audit report containing the modification history of the integration object.</choice>
+        </choices>
+        <answer>2,4,5</answer>
+        <notes>
+            https://microlearning.opensap.com/media/Create+an+Integration+Object+and+Model+its+Metadata+-+SAP+Commerce+Cloud/1_q1yijfhg
+        </notes>
+    </question>
+
+    <question id="20">
+        <module>Integration UI Tool</module>
+        <qtext>What can you do within the Integration UI Tool in Backoffice?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Force-delete an integration object, even if it is associated with an InboundChannelConfiguration (ICC).</choice>
+            <choice id="2">Export the configuration types so that they can be imported into a target system.</choice>
+            <choice id="3">Set up access rights for integration objects.</choice>
+            <choice id="4">Create a search restriction to secure an integration object for only a certain integration user group.</choice>
+        </choices>
+        <answer>2,3</answer>
+        <notes>
+            https://microlearning.opensap.com/media/Create+an+Integration+Object+and+Model+its+Metadata+-+SAP+Commerce+Cloud/1_q1yijfhg
+        </notes>
+    </question>
+
+    <question id="21">
+        <module>Integration API</module>
+        <qtext>When using Monitoring Support in the Integration API Module, what should you pay attention to?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">You can monitor the inbound integration requests using the Meta API.</choice>
+            <choice id="2">If the number of batches in a bulk request exceeds the limit allowed, the system records one Inbound Request with the payload.</choice>
+            <choice id="3">In Outbound monitoring, if the source of the OutboundRequest is not from outbound sync or webhooks, it is set as UNKNOWN.</choice>
+            <choice id="4">Because it isn't possible to disable the monitoring on a running server, you need to change the dedicated properties and redeploy the server.</choice>
+        </choices>
+        <answer>1,3</answer>
+        <notes>
+            https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/bad9b0b66bac476f8a4a5c4a08e4ab6b/a1a17de3d71f43d78accedb52a6c961d.html
+        </notes>
+    </question>
+
+    <question id="22">
+        <module>Platform</module>
+        <qtext>You restart the platform without running "ant all".
+            Which of the following changes take effect?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Removal of and extension from the local-extensions.xml file</choice>
+            <choice id="2">Addition of a spring bean definition</choice>
+            <choice id="3">Definition of a new item type is created in the items.xml for an extension</choice>
+            <choice id="4">Changes to database properties in the local properties file</choice>
+        </choices>
+        <answer>2,4</answer>
+        <notes>
+            https://help.sap.com/docs/SAP_COMMERCE/d0224eca81e249cb821f2cdf45a82ace/8b6ded0d86691014a6fab18e171c1f91.html
+        </notes>
+    </question>
+
+    <question id="23">
+        <module>Cloud Portal Configuration</module>
+        <qtext>What can you configure on the Configuration page in Cloud Portal?</qtext>
+        <qnotes>There are 3 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">IP Filter Sets</choice>
+            <choice id="2">Web Application Firewall</choice>
+            <choice id="3">HTTP Response Header Sets</choice>
+            <choice id="4">Host Alias Sets</choice>
+            <choice id="5">Trusted Certificates</choice>
+        </choices>
+        <answer>1,2,3</answer>
+        <notes>
+            https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0fa6bcf4736c46f78c248512391eb467/46cac44236cc489c8f18dd7cc3d8b293.html
+        </notes>
+    </question>
+
+    <question id="24">
+        <module>Solr Indexing</module>
+        <qtext>In which of the following cases can a Solr indexing operation be initiated?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">When you invoke an index operation in BackOffice on an instance of SolrFacetSearchConfig</choice>
+            <choice id="2">When the SAP Commerce Cloud instance is restarted</choice>
+            <choice id="3">When the cache is cleared in the HAC</choice>
+            <choice id="4">When your code makes an API call to a Spring bean instance of IndexerQueryContext</choice>
+        </choices>
+        <answer>1,4</answer>
+        <notes>
+            https://help.sap.com/docs/SAP_COMMERCE/d0224eca81e249cb821f2cdf45a82ace/8bf44e1b8669101491d0e9f1d50c5eed.html?q=IndexerQueryContext
+        </notes>
+    </question>
+
+    <question id="25">
+        <module>Item-type Definition</module>
+        <qtext>What is the effect of the redeclare attribute within an item-type definition?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">It can be used to change the class of an item-type.</choice>
+            <choice id="2">It can be used to change the typeOf an attribute.</choice>
+            <choice id="3">It can be used to change the modifier of an attribute.</choice>
+            <choice id="4">It can be used to change the name of an attribute.</choice>
+        </choices>
+        <answer>2,3</answer>
+        <notes>
+            http://javainsimpleway.com/redeclare-in-items-xml/
+        </notes>
+    </question>
+
+    <question id="26">
+        <module>SmartEdit</module>
+        <qtext>In Smart Edit, what can you do with variations that are defined for a customization?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Give the customer a coupon if a variation is in effect.</choice>
+            <choice id="2">Use the Combined View mode to view the effect of more than one variation in a customization.</choice>
+            <choice id="3">Show different content in a slot if a variation is in effect.</choice>
+            <choice id="4">Apply a variation to customers who explicitly do not match a segment.</choice>
+        </choices>
+        <answer>2,3</answer>
+    </question>
+
+    <question id="27">
+        <module>Business process</module>
+        <qtext>How can you start a business process in sap Commerce CLoud?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Invoke the appropriate method of the Business Process Service in the script console of the SAP Commerce Cloud Administration Console.</choice>
+            <choice id="2">Define a trigger for the business process.</choice>
+            <choice id="3">Use the Backoffice Business Process section.</choice>
+            <choice id="4">Invoke the appropriate method of the Business Process Service from Java code.</choice>
+        </choices>
+        <answer>1,4</answer>
+    </question>
+
+    <question id="28">
+        <module>Backoffice</module>
+        <qtext>What should you pay attention to when dynamic forms in Backoffice are applied?</qtext>
+        <qnotes>There are 3 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">A section can be made visible in a Create wizard dynamically when the value of a given attribute is changed.</choice>
+            <choice id="2">A tab can be disabled in an Editor area dynamically when the value of a given attribute is changed.</choice>
+            <choice id="3">A dynamic form's action can be triggered by any model change.</choice>
+            <choice id="4">Dynamic forms can be used in Editor areas, wizards, and list views (collection browsers).</choice>
+            <choice id="5">Switching Tabs dynamically in an Editor area can be configured when the value of a given attribute is changed.</choice>
+        </choices>
+        <answer>1,2,3</answer>
+    </question>
+
+    <question id="29">
+        <module>SmartEdit - Personalization</module>
+        <qtext>In Personalization (based on SmartEdit), you want to configure when the experience calculation is triggered for registered customers without requiring any customization.
+            What are the available options?</qtext>
+        <qnotes>There are 3 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Trigger the experience calculation for certain URL patterns.</choice>
+            <choice id="2">Trigger the experience calculation when the product cache is invalidated.</choice>
+            <choice id="3">Trigger the experience calculation when the customer logs in.</choice>
+            <choice id="4">Trigger the experience calculation after a defined number of requests.</choice>
+            <choice id="5">Trigger the experience calculation when the customer is promoted to a reward-level status.</choice>
+        </choices>
+        <answer>1,3,4</answer>
+        <notes>
+            https://community.sap.com/t5/crm-and-cx-questions/trigger-experience-calculation/qaq-p/12241304
+        </notes>
+    </question>
+
+    <question id="30">
+        <module>Promotions - Rule Aware Object</module>
+        <qtext>You need to create a new promotion based on customer reviews for a product. You create an extension called customPromotion with a new Rule Aware Object to keep customer reviews.
+            In which file will you define this new Rule Aware Object?</qtext>
+        <choices>
+            <choice id="1">In the customPromotion-backoffice-config.xml file</choice>
+            <choice id="2">In the customPromotion-beans.xml file</choice>
+            <choice id="3">In the customPromotion-spring.xml file</choice>
+            <choice id="4">In the customPromotion-items.xml file</choice>
+        </choices>
+        <answer>2</answer>
+        <notes>
+            https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/c7eda9f7e7104dd3b476f0de6f987a66/cbb82ab4c72a4924bb959023cb2bd774.html
+        </notes>
+    </question>
+
+    <question id="31">
+        <module>BaseStore Configuration</module>
+        <qtext>Which of the following items are configured through a direct relation to a BaseStore?</qtext>
+        <qnotes>There are 3 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">A list of product catalogs that provide the product info shown to customers</choice>
+            <choice id="2">A list of points of service that represent local branches</choice>
+            <choice id="3">A list of customers that are associated with the BaseStore</choice>
+            <choice id="4">A list of content catalogs that provide the pages, slots, and other CMSItems shown to customers</choice>
+            <choice id="5">A list of warehouses that support the delivery</choice>
+        </choices>
+        <answer>1,2,5</answer>
+        <reference>base commerce-items.xml</reference>
+    </question>
+
+    <question id="32">
+        <module>Composable Storefront Features</module>
+        <qtext>Which of the core storefront features does SAP Commerce Cloud, composable storefront support?</qtext>
+        <qnotes>There are 3 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">B2B Scheduled Replenishment</choice>
+            <choice id="2">Customer Interests</choice>
+            <choice id="3">Newsletter Subscription</choice>
+            <choice id="4">Configurable Promotions</choice>
+            <choice id="5">Wish List</choice>
+        </choices>
+        <answer>2,4,5</answer>
+    </question>
+
+    <question id="33">
+        <module>Cron Job Service</module>
+        <qtext>How can Cron Jobs be started or stopped?</qtext>
+        <qnotes>There are 3 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">CronJobs can be started manually through the Backoffice administration perspective.</choice>
+            <choice id="2">Cron Jobs can be stopped by calling cronJobService.</choice>
+            <choice id="3">CronJobs can be started manually through the command line by running "ant run cronjob".</choice>
+            <choice id="4">CronJobs can be stopped only if implemented as able to be stopped.</choice>
+            <choice id="5">CronJobs can be stopped automatically if a configurable time threshold is exceeded.</choice>
+        </choices>
+        <answer>1,3,4</answer>
+        <notes>
+            https://help.sap.com/docs/SAP_COMMERCE/d0224eca81e249cb821f2cdf45a82ace/8b9ce4868669101499b2f0f25ef9395f.html
+        </notes>
+    </question>
+
+    <question id="34">
+        <module>Dynamic Attributes Configuration</module>
+        <qtext>What should you pay attention to when defining a dynamic attribute for a composed type in the items xml file?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">A dynamic attribute must refer to an attributeHandler class that implements the AttributeHandler interface</choice>
+            <choice id="2">A dynamic attribute can be defined with a localized type(for example, localized.java.lang.String).</choice>
+            <choice id="3">A write-only dynamic attribute can be defined by setting its modifiers "write" to true and "read to false.</choice>
+            <choice id="4">A dynamic attribute's value can be saved in the database if specified in items.xml.</choice>
+        </choices>
+        <answer>1,2</answer>
+        <notes>
+            https://help.sap.com/docs/SAP_COMMERCE/d0224eca81e249cb821f2cdf45a82ace/8bb46096866910149208fae7c4ec7596.html?q=dynamic+attributes+configuration
+        </notes>
+    </question>
+
+    <question id="35">
+        <module>Platform</module>
+        <qtext>Assuming that property impex legacy scripting is set to false and Enable code execution is selected,what are the results of the following ImpEx script?</qtext>
+        <choices>
+            <choice id="1">Items "book1", "book2", and "book3" will be inserted or updated, but amy leading and trailing spaces in the filed values will be ignored </choice>
+            <choice id="2">No entries will be updated or inserted</choice>
+            <choice id="3">Items "book1", "book", and "book3" will be inserted or updated. It updated, all their existing property values will first be erased</choice>
+            <choice id="4">Items "book1", "book2", and "book3" will be inserted or updated. The name property of item "book3" will be erased, but other properties won't be affected.</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="36">
+        <module>Backoffice Framework</module>
+        <qtext>You need to add a new Cockpit to Backoffice to implement new features for a business user mole.Which tasks are required?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Configure an existing layout widget in &lt;myextension&gt;&lt;/myextension&gt;-backoffice-config.xml.</choice>
+            <choice id="2">Add  a new layout widget in &lt;myextension&gt;&lt;/myextension&gt;-backoffice-widgets.xml</choice>
+            <choice id="3">Create a bean for the new cockpit.</choice>
+            <choice id="4">Create or reuse a Backoffice extension with the proper meta information.</choice>
+        </choices>
+        <answer>1,4</answer>
+    </question>
+
+    <question id="37">
+        <module>CMS module</module>
+        <qtext>You synchronize a media item stored in SAP Commerce Cloud from a staged version to an online version.What happens next?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">The media format in the staged version is also synchronized to the media format in the online version.</choice>
+            <choice id="2">The values of the attributes are copied from the source item in the staged catalog to the target item in the online catalog.</choice>
+            <choice id="3">The staged and online media items now refer to two different image files in the file system.</choice>
+            <choice id="4">Both staged and online media items now refer to the same image file in the file system.</choice>
+        </choices>
+        <answer>2,4</answer>
+    </question>
+
+    <question id="38">
+        <module>base-commerce</module>
+        <qtext>Which services are included in the base-commerce extension to address customer services functionality?</qtext>
+        <qnotes>There are 3 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">RefundService</choice>
+            <choice id="2">OrderCancel Service</choice>
+            <choice id="3">ReturnService</choice>
+            <choice id="4">Customer ReviewService</choice>
+            <choice id="5">Customer AccountService</choice>
+        </choices>
+        <answer>1,2,3</answer>
+    </question>
+
+    <question id="39">
+        <module>Product Content Management (PCM)</module>
+        <qtext>You want to add a new feature using a classification system for an existing product.Which practices are recommended to accomplish this task?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Create a classification category with an attribute assignment model and assign it to the product.</choice>
+            <choice id="2">Create an empty classification unit even if the new feature doesn't have a unit.</choice>
+            <choice id="3">Create an empty classification unit even if the new feature and assign it to the product. </choice>
+            <choice id="4">Use feature descriptor values if the values of the new feature are limited to a selection.</choice>
+        </choices>
+        <answer>1,4</answer>
+    </question>
+
+    <question id="40">
+        <module>Core platform</module>
+        <qtext>How are relations modeled in the database?</qtext>
+        <qnotes>There are 2 correct answers to this question</qnotes>
+        <choices>
+            <choice id="1">One-to-many relations are stored in a column of the table of one of the related items.</choice>
+            <choice id="2">One-to-many relations are stored as a column in  the tables of both related items.</choice>
+            <choice id="3">Many-to-many relations are deployed as a table.</choice>
+            <choice id="4">One-to-many relations are stored in the links table</choice>
+        </choices>
+        <answer>1,3</answer>
+    </question>
+
+    <question id="41">
+        <module>Catalog Management</module>
+        <qtext>If the electronics Product Catalog and apparel Product Catalog (with Staged and Online versions) exist in the system, how many category items will the following ImpEx create?
+
+            Sversion-Staged
+            ScatVersion-catalogVersion (catalog(id[default-prodCat]), version [default-version]}
+            INSERT_UPDATE Category; code[unique-true]; $catVersion[unique-true]
+            test_category; electronics ProductCatalog
+            test_category; apparelProduct Catalog: $version
+            test_category; :Online
+            ;test_category;
+
+        </qtext>
+        <choices>
+            <choice id="1">3</choice>
+            <choice id="2">2</choice>
+            <choice id="3">1</choice>
+            <choice id="4">4</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="42">
+        <module>Business Processes</module>
+        <qtext>You are asked to define a new business process, what steps do you perform?</qtext>
+        <qnotes>There are 3 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Define the process in XML format.</choice>
+            <choice id="2">Define actions as new item types.</choice>
+            <choice id="3">Define the actions as spring beans.</choice>
+            <choice id="4">Implement actions in Java code.</choice>
+            <choice id="5">Define the process in BPMN format.</choice>
+        </choices>
+        <answer>1,3,4</answer>
+        <notes>
+            Link: https://help.sap.com/docs/SAP_COMMERCE/d0224eca81e249cb821f2cdf45a82ace/e546b34e839e4aeab6029726da35adf0.html?q=business%20process
+        </notes>
+    </question>
+
+    <question id="43">
+        <module>Smart Edit</module>
+        <qtext>When defining a merchandising carousel in Smart Edit, based on Intelligent Selling Services, what should you pay attention to?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">A product mix can be used in multiple strategies.</choice>
+            <choice id="2">A merchandising carousel can reference one or more product mixes.</choice>
+            <choice id="3">A strategy can reference one or more product mixers.</choice>
+            <choice id="4">A merchandising carousel can use one or more strategies.</choice>
+        </choices>
+        <answer>1,3</answer>
+    </question>
+
+    <question id="44">
+        <module>Service Layer</module>
+        <qtext>You are running a transaction that creates an item and updates it twice. If the transaction is committed successfully, how many After Save Event items will the Service Layer create?</qtext>
+        <choices>
+            <choice id="1">This depends on how the geld () method is implemented.</choice>
+            <choice id="2">This depends on how many times the model Service. Save () method is called.</choice>
+            <choice id="3">1</choice>
+            <choice id="4">2</choice>
+        </choices>
+        <answer>3</answer>
+    </question>
+
+    <question id="45">
+        <module>Asynchronous Events</module>
+        <qtext>How can you create asynchronous events in the SAP Commerce Cloud platform?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Change the platformClusterEventSender Spring bean configuration.</choice>
+            <choice id="2">Implement the TransactionAwareEvent interface.</choice>
+            <choice id="3">Implement the Cluster Aware Event interface.</choice>
+            <choice id="4">Extend the Abstract Event class.</choice>
+        </choices>
+        <answer>1,3</answer>
+        <notes>
+            https://learning.sap.com/learning-journeys/expand-upon-technical-essentials-of-sap-commerce-cloud/configuring-asynchronous-events_b825534b-a3b8-4656-adfd-5c7a4079a76f
+        </notes>
+    </question>
+
+    <question id="46">
+        <module>Cart Service</module>
+        <qtext>Which of the following are best practices for adding a new parameter to an existing method of Commerce Cart service?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Overload the existing method of Commerce Cart Service by adding the new parameter.</choice>
+            <choice id="2">Add a new property to Commerce Cart Parameter in a beans.xml file.</choice>
+            <choice id="3">Extend the default implementation of the method to handle the new parameter.</choice>
+            <choice id="4">Extend the default strategy, which is called by the method, to handle the new parameter.</choice>
+        </choices>
+        <answer>1,4</answer>
+    </question>
+
+    <question id="47">
+        <module>Widgets</module>
+        <qtext>Which of the following can you configure in a widget definition (definition xml) file?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">The default values for widget settings</choice>
+            <choice id="2">The available virtual sockets</choice>
+            <choice id="3">The business logic of the widget with a bean shell script</choice>
+            <choice id="4">The view file</choice>
+        </choices>
+        <answer>1,4</answer>
+    </question>
+
+    <question id="48">
+        <module>Order Management</module>
+        <qtext>When a customer places an order using the default order management process that's defined in the yacceleratorfulfillmentprocess extension, when does the fulfillment process send the notification that the order has been placed?</qtext>
+        <choices>
+            <choice id="1">After the payment has been processed</choice>
+            <choice id="2">After the order has been fraud-checked</choice>
+            <choice id="3">After communication with the warehouse</choice>
+            <choice id="4">After the order has been completely sourced</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="49">
+        <module>Enumerations</module>
+        <qtext>Where are enumerations stored?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Dynamic enumerations are stored in memory only.</choice>
+            <choice id="2">Dynamic enumerations are stored in the database.</choice>
+            <choice id="3">Non-dynamic enumerations are stored as enumeration classes.</choice>
+            <choice id="4">Non-dynamic enumerations are stored as HybrisEnum'value objects.</choice>
+        </choices>
+        <answer>2,3</answer>
+    </question>
+
+    <question id="50">
+        <module>Cloud Portal</module>
+        <qtext>What does the Cloud Portal application enable you to do?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Set up and deploy SAP Commerce Cloud in the public cloud.</choice>
+            <choice id="2">Create and configure endpoints that are tied to configured aspects.</choice>
+            <choice id="3">Generate new passwords for admin and anonymous users.</choice>
+            <choice id="4">Review the page load times of your environments.</choice>
+        </choices>
+        <answer>1,2</answer>
+    </question>
+
+    <question id="51">
+        <module>DTOs and Populators</module>
+        <qtext>In an extension named myext, you defined Pump, a subtype of the Product item type with a property named efficiency. You have also extended the product DTO bean to have an efficiency property. To copy the efficiency property to the productDTO, what do you need to do?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Create a PumpPopulator class that extends ProductPopulator and, if necessary, copies the efficiency property from the Pump item to the productDTO bean. In myext-spring.xml, redefine the productPopulator alias to point to an instance of PumpPopulator.</choice>
+            <choice id="2">Write a Pump Attribute Populator class that copies the efficiency property from the item to the DTO only if its method is passed an instance of Pump Model. Define a bean for this new class in myext-spring.xml, and use a modify Populator List bean to add it to the product Converter's list of populators.</choice>
+            <choice id="3">Make sure the definition of the Pump item type defines the efficiency attribute with the persistence type property. When you run ant all, the product Converter class that's generated in bootstrap/gensrc will copy the efficiency property to the productDTO.</choice>
+            <choice id="4">Write a PumpProductConverter class that extends AbstractPopulatingConverter, and copy the efficiency property from the Pump item to the productDTO bean if the item is an instance of Pump. Use this class to create a pumpProductConverter bean in myext-spring.xml.</choice>
+        </choices>
+        <answer>1,2</answer>
+    </question>
+
+    <question id="52">
+        <module>Item Localization</module>
+        <qtext>You have these example item types defined in myext-items xml. How would you localize the identification attribute?</qtext>
+        <choices>
+            <choice id="1">Change the type name to "localized Passport". The code generator does the rest.</choice>
+            <choice id="2">Define a relation between Student and Passport using a relation tag with parameter localized="true".</choice>
+            <choice id="3">Define a localized Passport attribute for the Student type in myext/resources/localization/myext locales_XY properties.</choice>
+            <choice id="4">Change the type name to "localized Passport" and create a map type with that name that returns Passport items.</choice>
+        </choices>
+        <answer>4</answer>
+    </question>
+
+    <question id="53">
+        <module>Solr Indexing</module>
+        <qtext>To define the data that gets extracted into the Solr index for searching, what do you need to provide?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">A flexible search query for an incremental update</choice>
+            <choice id="2">An ImpEx script for a full load</choice>
+            <choice id="3">A surconfig XML file</choice>
+            <choice id="4">A flexible search query for a full load</choice>
+        </choices>
+        <answer>1,4</answer>
+    </question>
+
+    <question id="54">
+        <module>Primary Keys</module>
+        <qtext>In SAP Commerce Cloud, the primary key (PK) is generated automatically and assigned. If you have a PK (for example, 8798093382857), how can you find out which object this PK belongs to?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">If the type of the object is known, for example, Product, you can use the following flexible search query: select * from (Product) where pk=8790093382657.</choice>
+            <choice id="2">If the type of the object is known, for example, Product, you just need to use the simple search field in the all-products workspace in Back office to search for the PK directly.</choice>
+            <choice id="3">Use the PK.Analyzer in HAC | Platform to check which object this PK belongs to.</choice>
+            <choice id="4">Use the following flexible search query select from (GenericItem) where pk=8796093382657.</choice>
+        </choices>
+        <answer>2,3</answer>
+        <notes>
+            option A query syntax is wrong
+            https://groundlevelhybris.wordpress.com/2020/02/05/pkprimary-key-in-hybris/
+        </notes>
+    </question>
+
+    <question id="55">
+        <module>Product Management</module>
+        <qtext>You set a price for an existing, unpriced product, but when you visit the live site, the "Add to Cart" button is not displayed on the Product Details page. What did you forget to do?</qtext>
+        <choices>
+            <choice id="1">Create a stock entry for the product.</choice>
+            <choice id="2">Verify that the current date falls inside the product's validity period.</choice>
+            <choice id="3">Set the product's approval status attribute to Approved.</choice>
+            <choice id="4">Run a Solr indexer operation in the Backoffice Administration Cockpit.</choice>
+        </choices>
+        <answer>1</answer>
+        <notes>
+            https://community.sap.com/t5/crm-and-cx-questions/add-to-cart-button-is-deactivated/qaq-p/12012998
+        </notes>
+    </question>
+
+    <question id="56">
+        <module>Events</module>
+        <qtext>How can you define a new event?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Create a new DTO in a beans.xml file.</choice>
+            <choice id="2">Create a new Item Type in an items.xml file.</choice>
+            <choice id="3">Create a new Event Template in an ImpEx file.</choice>
+            <choice id="4">Extend a pre-defined event DTO in a custom beans.xml.</choice>
+        </choices>
+        <answer>1,4</answer>
+    </question>
+
+    <question id="57">
+        <module>Cron Jobs</module>
+        <qtext>You need to create a Cron Job for an automated task that will be performed every day at midnight. Which steps can you follow?</qtext>
+        <qnotes>There are 3 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Register a ServiceLayerJob bean in your extension's Spring configuration file.</choice>
+            <choice id="2">Define the Job logic in a class that implements the JobPerformable interface or extends its sub-class.</choice>
+            <choice id="3">Define a job bean in your extension's spring configuration file.</choice>
+            <choice id="4">Register a Cronjob bean to refer to the java implementation.</choice>
+            <choice id="5">Create a CronJob item and a trigger for midnight using ImpEx or Backoffice.</choice>
+        </choices>
+        <answer>1,2,5</answer>
+        <notes>
+            http://javainsimpleway.com/cronjob-example/
+        </notes>
+    </question>
+
+    <question id="58">
+        <module>Items Definitions</module>
+        <qtext>What happens when you use a deployment tag in the items.xml file?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">The deployment type code is used as part of the primary key (PK) of the type's items.</choice>
+            <choice id="2">Only non-inherited properties of the enclosing type are stored in the deployment table.</choice>
+            <choice id="3">The name of the deployment table is generated automatically.</choice>
+            <choice id="4">All instances of the enclosing type are stored in the specified database table.</choice>
+        </choices>
+        <answer>1,4</answer>
+        <notes>
+            https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/aa417173fe4a4ba5a473c93eb730a417/8bffa9cc86691014bb70ac2d012708bc.html
+        </notes>
+    </question>
+
+    <question id="59">
+        <module>Backoffice Widgets</module>
+        <qtext>What can a "backoffice-widgets.xml contain in the Back-office framework?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Widget connection</choice>
+            <choice id="2">Virtual socket definition</choice>
+            <choice id="3">Spring beans of Backoffice web context</choice>
+            <choice id="4">Context configuration object definition</choice>
+        </choices>
+        <answer>1,2</answer>
+        <notes>
+            Please refer any backoffice-widget.xml in OOTB code.
+            https://help.sap.com/docs/SAP_COMMERCE/5c9ea0c629214e42b727bf08800d8dfa/8bd4366a86691014b818f8dd642790a8.html#loio8bd4366a86691014b818f8dd642790a8
+        </notes>
+    </question>
+
+    <question id="60">
+        <module>Search Restrictions</module>
+        <qtext>Your system contains a search restriction with the following parameters: Type: Product
+            User: employeegroup
+            Restriction: 1=0.
+            There is a product "Candia" in the online catalog and a variant product "PinkCandle" in the online catalog. A user belonging to employeegroup searches for Variant Product instances using Advanced Search with the code as a filter in Backoffice's administration cockpit, this will initiate the following flexible search query: "SELECT (pk) FROM (Variant Product) WHERE (code)="PinkCandle". What happens next?</qtext>
+        <choices>
+            <choice id="1">The flexible search query returns an empty list.</choice>
+            <choice id="2">The flexible search query returns all variant products, except "PinkCandle".</choice>
+            <choice id="3">The flexible search query returns the variant product "Pink Candle".</choice>
+            <choice id="4">The flexible search query returns all instances of Variant Product.</choice>
+        </choices>
+        <answer>1</answer>
+        <notes>
+            https://www.stackextend.com/hybris/use-restrictions-in-sap-hybris/
+        </notes>
+    </question>
+
+    <question id="61">
+        <module>Composable Storefront</module>
+        <qtext>SAP Commerce Cloud, composable storefront is the strategies storefront solution for SAP Commerce
+            Cloud What out-of-the-box features does it provide?
+        </qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Server-Side Rendering (SSR) to render static content</choice>
+            <choice id="2">Download support from the NPMJS repository</choice>
+            <choice id="3">Routing URLs to enhance SEO support with configurable URLs</choice>
+            <choice id="4">Outlets to configure the application layout</choice>
+        </choices>
+        <answer>1,3</answer>
+        <notes><![CDATA[
+        https://community.sap.com/t5/crm-and-cx-blogs-by-sap/composable-storefront-ssr
+        performance-and-timeout-troubleshooting/ba-p/13574075
+
+        https://help.sap.com/docs/SAP_COMMERCE_COMPOSABLE_STOREFRONT/eaef8c61b6d9477daf75bf
+        f9ac1b7eb4/b427db4f76654179ade8b74a78085182.html
+    ]]></notes>
+    </question>
+
+    <question id="62">
+        <module>OCC (Omni Commerce Connect)</module>
+        <qtext>what should you pay attention to when creating and implementing an OCC (aka, Omni Commerce
+            Connect) extension for OCC web services?</qtext>
+        <qnotes>There are 3 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">The new/custom OCC extension has its own web context</choice>
+            <choice id="2">The XML configuration file must end with "-web-spring.xml" to be loaded by the commercewebservices extension by default.</choice>
+            <choice id="3">The new custom OCC extension name must end with "OCC".</choice>
+            <choice id="4">The yoCC extension template should be used.</choice>
+            <choice id="5">The web/src folder should contain the REST controller implementation</choice>
+        </choices>
+        <answer>2,3,4</answer>
+        <notes><![CDATA[
+       https://help.sap.com/docs/SAP_COMMERCE/e5d7cec9064f453b84235dc582b886da/d46d19516961
+      438f8939718e87ed787b.html#dependencies-between-extensions
+    ]]></notes>
+    </question>
+
+    <question id="63">
+        <module>WCMS (Web Content Management System)</module>
+        <qtext>Which of the following contigurations can be done to a ContentSlot?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Add a list of CMS Components to it</choice>
+            <choice id="2">Assign it to a maximum of one page using a Content Slot for Page item.</choice>
+            <choice id="3">Assign it to one or more pages using Content Slot for Page items.</choice>
+            <choice id="4">Define valid CMS Components for it by modifying the Elements for Slot relation.</choice>
+        </choices>
+        <answer>1,3</answer>
+        <notes><![CDATA[
+        https://help.sap.com/doc/789b8a6e1434444da824c2493c6faaa0/2211.4/enUS/de/hybris/platform/cms2/jalo/contents/contentslot/ContentSlot.html
+    ]]></notes>
+    </question>
+
+    <question id="64">
+        <module>Solr (Search and Navigation)</module>
+        <qtext>What fields are important for creating a Solrindexed Property using Impex?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Field Value Provider, which is required and names the Spring bean that will provide the field value.</choice>
+            <choice id="2">Use for Autocomplete, which is optional and defaults to false.</choice>
+            <choice id="3">Facet, which is required and must have one of the values Refine, Multisector, or MultiSelectAnd.</choice>
+            <choice id="4">Value Provider Parameter, which is required and identifies the item attribute that's passed to the fieldValueProvider.</choice>
+        </choices>
+        <answer>1,3</answer>
+    </question>
+
+    <question id="65">
+        <module>SAP Commerce Cloud Build Workspace</module>
+        <qtext>What can you do in the Builds workspace in Cloud Portal?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Deploy a successful build to a given environment</choice>
+            <choice id="2">Edit the repository that's referenced in a build object and trigger a rebuild.</choice>
+            <choice id="3">Delete any successful build.</choice>
+            <choice id="4">View the history of the past deployments of a selected build.</choice>
+        </choices>
+        <answer>1,4</answer>
+        <notes><![CDATA[
+        https://microlearning.opensap.com/media/How+to+Create+and+Deploy+a+Build+in+the+Cloud+Portal+-+SAP+Commerce+Cloud/1_j1ffp373
+    ]]></notes>
+    </question>
+
+    <question id="66">
+        <module>Platform and Extensibility</module>
+        <qtext>During an SAP Commerce Cloud build, the build framework generates model classes for item types that are defined in items.xml. Where are the model classes generated and why?</qtext>
+        <choices>
+            <choice id="1">Always in bootstrap/gensic of the extension where the type is defined for the first time, so that the type can be extended by others</choice>
+            <choice id="2">Either in the extension, where the type is defined, or in the platform extension if it is not explicitly specified.</choice>
+            <choice id="3">Always in bootstrap/genstic of base commerce, to avoid cyclic dependency</choice>
+            <choice id="4">Always in bootstrap/gensrc of platform, to support the relation type</choice>
+        </choices>
+        <answer>4</answer>
+        <notes><![CDATA[
+        https://community.sap.com/t5/crm-and-cx-questions/why-models-are-generated-in-platformwhere-type-is-defined-in-extension/qaq-p/12008103
+    ]]></notes>
+    </question>
+
+    <question id="67">
+        <module>Service Layer Architecture</module>
+        <qtext>Which component configurations does the Service layer architecture promote?</qtext>
+        <qnotes>There are 3 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Facades orchestrate Converters</choice>
+            <choice id="2">Services orchestrate Converters</choice>
+            <choice id="3">Services orchestrate Strategies</choice>
+            <choice id="4">Facades orchestrate Strategies</choice>
+            <choice id="5">Facades orchestrate Services</choice>
+        </choices>
+        <answer>1,3,5</answer>
+        <notes><![CDATA[
+        This is a general design pattern
+        https://community.sap.com/t5/crm-and-cx-questions/how-many-design-patterns-that-hybris-commerce-is-supporting/qaq-p/12100709
+    ]]></notes>
+    </question>
+
+    <question id="68">
+        <module>Solr Index</module>
+        <qtext>What Solr index operation uses the indexed Properties field on the SolrExtIndexer Cron Job?</qtext>
+        <choices>
+            <choice id="1">PARTIAL UPDATE</choice>
+            <choice id="2">FULL</choice>
+            <choice id="3">DELETE</choice>
+            <choice id="4">UPDATE</choice>
+        </choices>
+        <answer>1</answer>
+        <notes><![CDATA[
+        https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/aa417173fe4a4ba5a473c93eb730a417/4bcc5bd6a3b848308a6a1d043c6af81f.html?q=SolrExtIndexerJob
+    ]]></notes>
+    </question>
+
+    <question id="69">
+        <module>Product Catalog Management</module>
+        <qtext>You are creating a new ancillary catalog to group products in your shop. What principles should you take into account?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">A catalog must have at least 2 versions: staged and online.</choice>
+            <choice id="2">A catalog version has a hierarchy of categories, each containing products</choice>
+            <choice id="3">A catalog can contain an unlimited number of catalog versions.</choice>
+            <choice id="4">Read and write access of a catalog can be restricted from its Permission tab in the editor area of Backoffice.</choice>
+        </choices>
+        <answer>1,2</answer>
+        <notes><![CDATA[
+        https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/aa417173fe4a4ba5a473c93eb730a417/8b749dc08669101495f88f8593dc5df0.html
+    ]]></notes>
+    </question>
+
+    <question id="70">
+        <module>Testing and Quality Assurance</module>
+        <qtext>When you define an aspect in your mainitest json file, what types of information should you provide?</qtext>
+        <qnotes>There are 3 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">excluded Packages</choice>
+            <choice id="2">name</choice>
+            <choice id="3">extensions</choice>
+            <choice id="4">properties</choice>
+            <choice id="5">webapps</choice>
+        </choices>
+        <answer>2,4,5</answer>
+    </question>
+
+    <question id="71">
+        <module>Commerce Order Management</module>
+        <qtext>Which order-splitting strategies are provided in the base commerce extension?</qtext>
+        <qnotes>There are 3 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Split by payment method</choice>
+            <choice id="2">Split by named delivery date</choice>
+            <choice id="3">Split by stock availability</choice>
+            <choice id="4">Split by warehouse</choice>
+            <choice id="5">Split by orderdate</choice>
+        </choices>
+        <answer>2,3,4</answer>
+        <notes><![CDATA[
+        https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/e1391e5265574bfbb56ca4c0573ba1dc/94d0e80f20c84bdca999b1b8ee3f2b14.html
+    ]]></notes>
+    </question>
+
+    <question id="72">
+        <module>Security and Authorization</module>
+        <qtext>What do you need to keep in mind with Type-Based Access Rights?</qtext>
+        <choices>
+            <choice id="1">They can be configured using the Principal Permission action button on the Backoffice Edit Employee page.</choice>
+            <choice id="2">They can be configured using the Type permission button on the Backoffice Edit Product page.</choice>
+            <choice id="3">They control access to specific items of a given type</choice>
+            <choice id="4">They affect every user role in SAP Commerce Cloud.</choice>
+        </choices>
+        <answer>3</answer>
+        <notes><![CDATA[
+        https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/aa417173fe4a4ba5a473c93eb
+    ]]></notes>
+    </question>
+
+    <question id="73">
+        <module>Platform and Extension Development</module>
+        <qtext>You are implementing two new independent extensions, extension A and extension B, both of which extend and overwrite a bean that's defined in the core platform. How can you make sure the bean from extension A doesn’t override the one from extension B?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">Define a dependency in which extension B requires extension A.</choice>
+            <choice id="2">List extension B after extension A in localextensions.xml.</choice>
+            <choice id="3">Ensure that only one of the extensions is included in the build.</choice>
+            <choice id="4">In the bean's XML definition in extension B, use the parent attribute to specify the core bean.</choice>
+        </choices>
+        <answer>1,4</answer>
+        <notes><![CDATA[
+        https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/aa417173fe4a4ba5a473c93eb730a417/8c63621986691014a7e0a18695d7d410.html?q=overriding%20beans#loio34a21e0dede540aeb067489005beb0b8y
+    ]]></notes>
+    </question>
+
+    <question id="74">
+        <module>SmartEdit’s Navigation Management</module>
+        <qtext>What is Smart Edit's Navigation Management page useful for?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">It can define more than one navigation hierarchy, each accessed by a different component on the page.</choice>
+            <choice id="2">It is used to configure automatic mapping of the Product Catalog's category hierarchy to the navigation bar displayed on site pages.</choice>
+            <choice id="3">It allows you to manipulate a parent-child hierarchy of CMS LinkComponent objects.</choice>
+            <choice id="4">It allows you to manipulate a hierarchy of CMS Navigation Node items, each of which may contain a CMSNavigationEntry.</choice>
+        </choices>
+        <answer>3,4</answer>
+        <notes><![CDATA[
+        https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/e1391e5265574bfbb56ca4c0573ba1dc/222c612e1682405bb6f44cbbacf7402c.html
+    ]]></notes>
+    </question>
+
+    <question id="75">
+        <module>Solr</module>
+        <qtext>You are creating a new Solrindexed Property item as a facet and want to define it using facet ranges. What do you need to do to achieve that?</qtext>
+        <choices>
+            <choice id="1">Manually create SolrValueRange items to define the range boundaries. Assign the SolrValueRange items to a Solrindexed Property item.</choice>
+            <choice id="2">Manually create SolrValueRange items to define the range boundaries. Create a SolrValueRange Set, add SolrValueRange items, and add to a Solrindexed Property item.</choice>
+            <choice id="3">Use sample data to automatically generate SolrValueRange items. Assign the SolrValueRange items to a SolrIndexed Property item.</choice>
+            <choice id="4">Create SolrValueRange items to define the range boundaries. Add them to a SolrIndexed Property item.</choice>
+        </choices>
+        <answer>2</answer>
+        <notes><![CDATA[
+        http://javainsimpleway.com/understanding-solr-configuration-in-hybris/
+    ]]></notes>
+    </question>
+
+    <question id="76">
+        <module>Adaptive Search</module>
+        <qtext>What must you always specify when you are creating a new Adaptive Search Profile?</qtext>
+        <choices>
+            <choice id="1">Index type</choice>
+            <choice id="2">Category</choice>
+            <choice id="3">Index Configuration</choice>
+            <choice id="4">Catalog version</choice>
+        </choices>
+        <answer>3</answer>
+    </question>
+
+    <question id="77">
+        <module>Adaptive Search</module>
+        <qtext>What type of class should you implement when you need to change the trigger for recalculating the user experience results?</qtext>
+        <choices>
+            <choice id="1">An interceptor</choice>
+            <choice id="2">A populator</choice>
+            <choice id="3">A controller</choice>
+            <choice id="4">A voter</choice>
+        </choices>
+        <answer>4</answer>
+        <notes><![CDATA[
+        https://learning.sap.com/learning-journeys/master-the-technical-essentials-of-sap-commercecloud/ux-calculation_f407ed70-d08c-4d41-8271-e13671b6b332
+    ]]></notes>
+    </question>
+
+    <question id="78">
+        <module>Rule Engine</module>
+        <qtext>Why are rule-aware objects (RAOs) used in the rule engine?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="1">To persist the results of the rule evaluation</choice>
+            <choice id="2">To provide the data as facts in rule conditions and actions</choice>
+            <choice id="3">To eliminate unnecessary data that are provided by complex objects</choice>
+            <choice id="4">To store the configuration of the rule engine</choice>
+        </choices>
+        <answer>1,2</answer>
+        <notes><![CDATA[
+        https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/e1391e5265574bfbb56ca4c05
+    ]]></notes>
+    </question>
+
+    <question id="79">
+        <module>Cloud Hot Folders</module>
+        <qtext>Which features does the Cloud Hot Folders module support? Note: There are 2 correct answers to this question.</qtext>
+        <choices>
+            <choice id="1">Media import using external URLs in uploaded ImpEx</choice>
+            <choice id="2">Data export into Azure Blob storage</choice>
+            <choice id="3">Uploading/processing of zip archives with ImpEx, media, and CSV files</choice>
+            <choice id="4">Direct configuration of Hot Folders in the Cloud Portal</choice>
+        </choices>
+        <answer>1,3</answer>
+        <notes><![CDATA[
+        https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/403d43bf9c564f5a985913d1f
+    ]]></notes>
+    </question>
+
+    <question id="80">
+        <module>Business Process Management</module>
+        <qtext>You are creating a business process (mybusinessprocess) that requires an action (action) to pass an info String value to another action (actionE) occurring later in the process. Which steps would you typically follow to make this possible?</qtext>
+        <choices>
+            <choice id="1">In the mybusinessprocess xml definition file, define an info event and configure action as the event's originator and actionE as its target. Trigger the event in the class implementing action using businessProcessService.triggerEvent(info)</choice>
+            <choice id="2">Create an event named myEvent that extends the AbstractProcessEvent and adds an info String property. Register the target action as a listener for this event. Fire the event with eventService.publishEvent(myEvent).</choice>
+            <choice id="3">Add the info String as a contextParameter of the existing Business Process model. Cast the contextParameter object back to String to access it in the next action.</choice>
+            <choice id="4">Create a myBusinessProcess item type that extends BusinessProcess and adds an info String property. Use an instance of this type to start the process in your Java code with businessProcessService.startProcess(new myBusinessProcessModel).</choice>
+        </choices>
+        <answer>3,4</answer>
+        <notes><![CDATA[
+        https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/aa417173fe4a4ba5a473c93eb
+    ]]></notes>
+    </question>
+
+</exam>

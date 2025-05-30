@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exam>
+
+    <question id="0" type="single">
+        <qtext>Which SQL statement is used to extract data from a database?</qtext>
+        <choices>
+            <choice id="1">GET</choice>
+            <choice id="2">OPEN</choice>
+            <choice id="3">SELECT</choice>
+            <choice id="4">EXTRACT</choice>
+        </choices>
+        <answer>3</answer>
+    </question>
+
+    <question id="1" type="single">
+        <qtext>Which SQL clause is used to filter the result set?</qtext>
+        <choices>
+            <choice id="1">WHERE</choice>
+            <choice id="2">ORDER BY</choice>
+            <choice id="3">GROUP BY</choice>
+            <choice id="4">HAVING</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="2" type="multiple">
+        <qtext>Which of the following are SQL aggregate functions?</qtext>
+        <choices>
+            <choice id="1">SUM</choice>
+            <choice id="2">AVG</choice>
+            <choice id="3">MAX</choice>
+            <choice id="4">JOIN</choice>
+        </choices>
+        <answer>1,2,3</answer>
+    </question>
+
+    <question id="3" type="single">
+        <qtext>What does the SQL COUNT function do?</qtext>
+        <choices>
+            <choice id="1">Adds all values</choice>
+            <choice id="2">Returns the number of rows</choice>
+            <choice id="3">Finds the largest value</choice>
+            <choice id="4">Finds the smallest value</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="4" type="multiple">
+        <qtext>Which SQL commands are part of DML (Data Manipulation Language)?</qtext>
+        <choices>
+            <choice id="1">INSERT</choice>
+            <choice id="2">SELECT</choice>
+            <choice id="3">UPDATE</choice>
+            <choice id="4">DELETE</choice>
+        </choices>
+        <answer>1,2,3,4</answer>
+    </question>
+
+    <question id="5" type="single">
+        <qtext>Which SQL keyword is used to sort the result-set?</qtext>
+        <choices>
+            <choice id="1">SORT BY</choice>
+            <choice id="2">ORDER</choice>
+            <choice id="3">ORDER BY</choice>
+            <choice id="4">SORT</choice>
+        </choices>
+        <answer>3</answer>
+    </question>
+
+    <question id="6" type="single">
+        <qtext>Which statement is used to update data in a table?</qtext>
+        <choices>
+            <choice id="1">MODIFY</choice>
+            <choice id="2">UPDATE</choice>
+            <choice id="3">CHANGE</choice>
+            <choice id="4">SET</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="7" type="single">
+        <qtext>Which keyword is used to eliminate duplicate rows in the result-set?</qtext>
+        <choices>
+            <choice id="1">UNIQUE</choice>
+            <choice id="2">DISTINCT</choice>
+            <choice id="3">FILTER</choice>
+            <choice id="4">REMOVE</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="8" type="multiple">
+        <qtext>Which of the following are valid SQL data types?</qtext>
+        <choices>
+            <choice id="1">VARCHAR</choice>
+            <choice id="2">INTEGER</choice>
+            <choice id="3">DATE</choice>
+            <choice id="4">CHARACTER</choice>
+        </choices>
+        <answer>1,2,3</answer>
+    </question>
+
+    <question id="9" type="single">
+        <qtext>What does the PRIMARY KEY constraint do?</qtext>
+        <choices>
+            <choice id="1">Prevents duplicate entries</choice>
+            <choice id="2">Allows NULL values</choice>
+            <choice id="3">Ensures foreign key constraints</choice>
+            <choice id="4">Changes data type</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="10" type="multiple">
+        <qtext>Which of the following can be used to create a relationship between two tables?</qtext>
+        <choices>
+            <choice id="1">PRIMARY KEY</choice>
+            <choice id="2">FOREIGN KEY</choice>
+            <choice id="3">UNIQUE</choice>
+            <choice id="4">JOIN</choice>
+        </choices>
+        <answer>1,2,4</answer>
+    </question>
+
+    <question id="11" type="single">
+        <qtext>Which SQL statement is used to create a new table?</qtext>
+        <choices>
+            <choice id="1">MAKE TABLE</choice>
+            <choice id="2">INSERT TABLE</choice>
+            <choice id="3">CREATE TABLE</choice>
+            <choice id="4">NEW TABLE</choice>
+        </choices>
+        <answer>3</answer>
+    </question>
+
+    <question id="12" type="single">
+        <qtext>What is a foreign key?</qtext>
+        <choices>
+            <choice id="1">A unique key in a table</choice>
+            <choice id="2">A key used to uniquely identify a table</choice>
+            <choice id="3">A key that points to a primary key in another table</choice>
+            <choice id="4">A temporary key</choice>
+        </choices>
+        <answer>3</answer>
+    </question>
+
+    <question id="13" type="multiple">
+        <qtext>Which clauses can be used with SELECT to group and filter aggregated results?</qtext>
+        <choices>
+            <choice id="1">GROUP BY</choice>
+            <choice id="2">HAVING</choice>
+            <choice id="3">WHERE</choice>
+            <choice id="4">ORDER BY</choice>
+        </choices>
+        <answer>1,2</answer>
+    </question>
+
+    <question id="14" type="single">
+        <qtext>Which operator is used to search for a pattern in SQL?</qtext>
+        <choices>
+            <choice id="1">LIKE</choice>
+            <choice id="2">FIND</choice>
+            <choice id="3">SEARCH</choice>
+            <choice id="4">MATCH</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="15" type="multiple">
+        <qtext>Which of the following are types of JOINs in SQL?</qtext>
+        <choices>
+            <choice id="1">INNER JOIN</choice>
+            <choice id="2">OUTER JOIN</choice>
+            <choice id="3">LEFT JOIN</choice>
+            <choice id="4">RIGHT JOIN</choice>
+        </choices>
+        <answer>1,2,3,4</answer>
+    </question>
+
+    <question id="16" type="single">
+        <qtext>Which SQL clause is used to rename a column in the result-set?</qtext>
+        <choices>
+            <choice id="1">AS</choice>
+            <choice id="2">RENAME</choice>
+            <choice id="3">MODIFY</choice>
+            <choice id="4">CHANGE</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="17" type="single">
+        <qtext>Which statement is used to remove rows from a table?</qtext>
+        <choices>
+            <choice id="1">REMOVE</choice>
+            <choice id="2">ERASE</choice>
+            <choice id="3">DELETE</choice>
+            <choice id="4">DROP</choice>
+        </choices>
+        <answer>3</answer>
+    </question>
+
+    <question id="18" type="single">
+        <qtext>What is the result of the expression: SELECT 10 / 4?</qtext>
+        <choices>
+            <choice id="1">2</choice>
+            <choice id="2">2.5</choice>
+            <choice id="3">3</choice>
+            <choice id="4">Depends on the database</choice>
+        </choices>
+        <answer>4</answer>
+    </question>
+
+    <question id="19" type="multiple">
+        <qtext>Which constraints can be used in SQL?</qtext>
+        <choices>
+            <choice id="1">PRIMARY KEY</choice>
+            <choice id="2">UNIQUE</choice>
+            <choice id="3">NOT NULL</choice>
+            <choice id="4">DEFAULT</choice>
+        </choices>
+        <answer>1,2,3,4</answer>
+    </question>
+
+</exam>

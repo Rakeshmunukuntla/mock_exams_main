@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exam>
+
+    <question id="0" type="single">
+        <qtext>What is Adobe Experience Manager (AEM) primarily used for?</qtext>
+        <choices>
+            <choice id="1">Video editing</choice>
+            <choice id="2">Content management</choice>
+            <choice id="3">Graphic design</choice>
+            <choice id="4">Financial analysis</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="1" type="single">
+        <qtext>Which technology stack is AEM built upon?</qtext>
+        <choices>
+            <choice id="1">Java</choice>
+            <choice id="2">.NET</choice>
+            <choice id="3">Python</choice>
+            <choice id="4">PHP</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="2" type="multiple">
+        <qtext>Which components are part of the AEM architecture?</qtext>
+        <choices>
+            <choice id="1">CRX Repository</choice>
+            <choice id="2">Dispatcher</choice>
+            <choice id="3">Lucene Indexes</choice>
+            <choice id="4">Media Encoder</choice>
+        </choices>
+        <answer>1,2,3</answer>
+    </question>
+
+    <question id="3" type="single">
+        <qtext>What is the purpose of AEM’s Dispatcher?</qtext>
+        <choices>
+            <choice id="1">Cache management</choice>
+            <choice id="2">Image rendering</choice>
+            <choice id="3">User authentication</choice>
+            <choice id="4">Workflow automation</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="4" type="single">
+        <qtext>In AEM, what is a "component"?</qtext>
+        <choices>
+            <choice id="1">A standalone application</choice>
+            <choice id="2">A reusable module for creating content</choice>
+            <choice id="3">A database engine</choice>
+            <choice id="4">A network protocol</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="5" type="multiple">
+        <qtext>Which of the following are AEM functionalities?</qtext>
+        <choices>
+            <choice id="1">Digital asset management</choice>
+            <choice id="2">Web content management</choice>
+            <choice id="3">Code debugging</choice>
+            <choice id="4">Form creation and management</choice>
+        </choices>
+        <answer>1,2,4</answer>
+    </question>
+
+    <question id="6" type="single">
+        <qtext>Which repository is used by AEM to store data?</qtext>
+        <choices>
+            <choice id="1">MongoDB</choice>
+            <choice id="2">MySQL</choice>
+            <choice id="3">CRX</choice>
+            <choice id="4">Hadoop</choice>
+        </choices>
+        <answer>3</answer>
+    </question>
+
+    <question id="7" type="single">
+        <qtext>What is the role of OSGi in AEM?</qtext>
+        <choices>
+            <choice id="1">Provides a framework for modular application development</choice>
+            <choice id="2">Renders HTML content</choice>
+            <choice id="3">Handles user permissions</choice>
+            <choice id="4">Manages database connections</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="8" type="single">
+        <qtext>What is Sightly in AEM now known as?</qtext>
+        <choices>
+            <choice id="1">Thymeleaf</choice>
+            <choice id="2">HTL (HTML Template Language)</choice>
+            <choice id="3">JSP</choice>
+            <choice id="4">Pug</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="9" type="single">
+        <qtext>Which AEM tool can be used to manage workflows?</qtext>
+        <choices>
+            <choice id="1">Workflow Engine</choice>
+            <choice id="2">Content Builder</choice>
+            <choice id="3">Asset Explorer</choice>
+            <choice id="4">User Manager</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="10" type="multiple">
+        <qtext>Which languages can be used to develop components in AEM?</qtext>
+        <choices>
+            <choice id="1">Java</choice>
+            <choice id="2">JavaScript</choice>
+            <choice id="3">Ruby</choice>
+            <choice id="4">HTML</choice>
+        </choices>
+        <answer>1,2,4</answer>
+    </question>
+
+    <question id="11" type="single">
+        <qtext>What is the primary language for backend development in AEM?</qtext>
+        <choices>
+            <choice id="1">Java</choice>
+            <choice id="2">Python</choice>
+            <choice id="3">JavaScript</choice>
+            <choice id="4">C#</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="12" type="single">
+        <qtext>What is the purpose of templates in AEM?</qtext>
+        <choices>
+            <choice id="1">To define reusable layout structures</choice>
+            <choice id="2">To manage user access</choice>
+            <choice id="3">To store media files</choice>
+            <choice id="4">To execute SQL queries</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="13" type="single">
+        <qtext>Which of the following is used to create a new page in AEM?</qtext>
+        <choices>
+            <choice id="1">Page Builder</choice>
+            <choice id="2">Page Wizard</choice>
+            <choice id="3">Page Editor</choice>
+            <choice id="4">Page Author</choice>
+        </choices>
+        <answer>3</answer>
+    </question>
+
+    <question id="14" type="single">
+        <qtext>What is DAM in AEM?</qtext>
+        <choices>
+            <choice id="1">Digital Audit Manager</choice>
+            <choice id="2">Digital Asset Management</choice>
+            <choice id="3">Data Access Module</choice>
+            <choice id="4">Document Automation Manager</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="15" type="multiple">
+        <qtext>In AEM, what are "clientlibs"?</qtext>
+        <choices>
+            <choice id="1">Libraries for JavaScript and CSS</choice>
+            <choice id="2">Rendering HTML content</choice>
+            <choice id="3">Managing workflows</choice>
+            <choice id="4">Creating OSGi components</choice>
+        </choices>
+        <answer>1,2</answer>
+    </question>
+
+    <question id="16" type="single">
+        <qtext>What is the function of content fragments in AEM?</qtext>
+        <choices>
+            <choice id="1">Manage forms</choice>
+            <choice id="2">Store reusable text for various channels</choice>
+            <choice id="3">Edit images</choice>
+            <choice id="4">Control access permissions</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="17" type="single">
+        <qtext>What format do AEM scripts often use?</qtext>
+        <choices>
+            <choice id="1">Perl</choice>
+            <choice id="2">Python</choice>
+            <choice id="3">Java</choice>
+            <choice id="4">HTL</choice>
+        </choices>
+        <answer>4</answer>
+    </question>
+
+    <question id="18" type="single">
+        <qtext>Which feature in AEM ensures consistency across different sites?</qtext>
+        <choices>
+            <choice id="1">Content Sync</choice>
+            <choice id="2">Multi-Site Manager (MSM)</choice>
+            <choice id="3">Universal Editor</choice>
+            <choice id="4">Global Asset Manager</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="19" type="multiple">
+        <qtext>What are some benefits of using AEM?</qtext>
+        <choices>
+            <choice id="1">Scalability</choice>
+            <choice id="2">Enhanced security</choice>
+            <choice id="3">Offline editing</choice>
+            <choice id="4">Rich media support</choice>
+        </choices>
+        <answer>1,2,4</answer>
+    </question>
+
+</exam>

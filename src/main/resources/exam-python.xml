@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exam>
+
+    <question id="0" type="single">
+        <qtext>Who developed the Python programming language?</qtext>
+        <choices>
+            <choice id="1">Dennis Ritchie</choice>
+            <choice id="2">Guido van Rossum</choice>
+            <choice id="3">Bjarne Stroustrup</choice>
+            <choice id="4">James Gosling</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="1" type="single">
+        <qtext>Which keyword is used to define a function in Python?</qtext>
+        <choices>
+            <choice id="1">function</choice>
+            <choice id="2">def</choice>
+            <choice id="3">fun</choice>
+            <choice id="4">define</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="2" type="multiple">
+        <qtext>Which of the following are data types in Python?</qtext>
+        <choices>
+            <choice id="1">list</choice>
+            <choice id="2">dict</choice>
+            <choice id="3">float</choice>
+            <choice id="4">sequence</choice>
+        </choices>
+        <answer>1,2,3</answer>
+    </question>
+
+    <question id="3" type="single">
+        <qtext>Which built-in function can be used to get the length of a list in Python?</qtext>
+        <choices>
+            <choice id="1">size()</choice>
+            <choice id="2">length()</choice>
+            <choice id="3">count()</choice>
+            <choice id="4">len()</choice>
+        </choices>
+        <answer>4</answer>
+    </question>
+
+    <question id="4" type="single">
+        <qtext>What is used to define a block of code in Python?</qtext>
+        <choices>
+            <choice id="1">Braces</choice>
+            <choice id="2">Indentation</choice>
+            <choice id="3">Parentheses</choice>
+            <choice id="4">Semicolons</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="5" type="multiple">
+        <qtext>Which of the following can be loop constructs in Python?</qtext>
+        <choices>
+            <choice id="1">for</choice>
+            <choice id="2">while</choice>
+            <choice id="3">loop</choice>
+            <choice id="4">repeat</choice>
+        </choices>
+        <answer>1,2</answer>
+    </question>
+
+    <question id="6" type="single">
+        <qtext>Which of the following is used to indicate a comment in Python?</qtext>
+        <choices>
+            <choice id="1">//</choice>
+            <choice id="2">#</choice>
+            <choice id="3">/*</choice>
+            <choice id="4">!</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="7" type="single">
+        <qtext>What is the output type of the expression 3 / 2 in Python?</qtext>
+        <choices>
+            <choice id="1">int</choice>
+            <choice id="2">float</choice>
+            <choice id="3">double</choice>
+            <choice id="4">str</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="8" type="single">
+        <qtext>Which operator is used for string concatenation in Python?</qtext>
+        <choices>
+            <choice id="1">+</choice>
+            <choice id="2">*</choice>
+            <choice id="3">-</choice>
+            <choice id="4">/</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="9" type="single">
+        <qtext>Which method would you use to convert a string to all lower case in Python?</qtext>
+        <choices>
+            <choice id="1">str.lowercase()</choice>
+            <choice id="2">str.toLower()</choice>
+            <choice id="3">str.lower()</choice>
+            <choice id="4">str.downcase()</choice>
+        </choices>
+        <answer>3</answer>
+    </question>
+
+    <question id="10" type="multiple">
+        <qtext>Which of the following are immutable data types in Python?</qtext>
+        <choices>
+            <choice id="1">str</choice>
+            <choice id="2">list</choice>
+            <choice id="3">tuple</choice>
+            <choice id="4">dict</choice>
+        </choices>
+        <answer>1,3</answer>
+    </question>
+
+    <question id="11" type="single">
+        <qtext>Which keyword is used for exception handling in Python?</qtext>
+        <choices>
+            <choice id="1">catch</choice>
+            <choice id="2">try</choice>
+            <choice id="3">except</choice>
+            <choice id="4">handle</choice>
+        </choices>
+        <answer>3</answer>
+    </question>
+
+    <question id="12" type="single">
+        <qtext>Which of the following methods will stop a loop iteration in Python?</qtext>
+        <choices>
+            <choice id="1">stop</choice>
+            <choice id="2">end</choice>
+            <choice id="3">break</choice>
+            <choice id="4">halt</choice>
+        </choices>
+        <answer>3</answer>
+    </question>
+
+    <question id="13" type="single">
+        <qtext>What is the key feature of a Python dictionary?</qtext>
+        <choices>
+            <choice id="1">Indexed access</choice>
+            <choice id="2">Key-value pairs</choice>
+            <choice id="3">Immutability</choice>
+            <choice id="4">Ordered elements</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="14" type="single">
+        <qtext>Which module in Python provides built-in functions for mathematics?</qtext>
+        <choices>
+            <choice id="1">math</choice>
+            <choice id="2">statistics</choice>
+            <choice id="3">random</choice>
+            <choice id="4">mathlib</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="15" type="multiple">
+        <qtext>Which methods are used to add an item to a list in Python?</qtext>
+        <choices>
+            <choice id="1">append()</choice>
+            <choice id="2">extend()</choice>
+            <choice id="3">add()</choice>
+            <choice id="4">insert()</choice>
+        </choices>
+        <answer>1,2,4</answer>
+    </question>
+
+    <question id="16" type="single">
+        <qtext>What does the 'pass' keyword do in Python?</qtext>
+        <choices>
+            <choice id="1">Terminates the program</choice>
+            <choice id="2">Skips the current iteration</choice>
+            <choice id="3">Acts as a placeholder and does nothing</choice>
+            <choice id="4">Continues to the next iteration</choice>
+        </choices>
+        <answer>3</answer>
+    </question>
+
+    <question id="17" type="single">
+        <qtext>Which of the following is used to handle multiple exceptions in Python?</qtext>
+        <choices>
+            <choice id="1">One 'except' block for each exception</choice>
+            <choice id="2">Multiple 'except' blocks</choice>
+            <choice id="3">Chains of 'try' blocks</choice>
+            <choice id="4">Nested 'try' blocks</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="18" type="single">
+        <qtext>What type of language is Python considered to be?</qtext>
+        <choices>
+            <choice id="1">Compiled</choice>
+            <choice id="2">Interpreted</choice>
+            <choice id="3">Machine</choice>
+            <choice id="4">Markup</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="19" type="multiple">
+        <qtext>Which of the following are Python's magic methods?</qtext>
+        <choices>
+            <choice id="1">__init__</choice>
+            <choice id="2">__str__</choice>
+            <choice id="3">__len__</choice>
+            <choice id="4">__main__</choice>
+        </choices>
+        <answer>1,2,3</answer>
+    </question>
+
+</exam>

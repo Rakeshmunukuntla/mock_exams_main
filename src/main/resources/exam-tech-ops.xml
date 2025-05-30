@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exam>
+
+    <question id="0" type="single">
+        <qtext>What is SAP NetWeaver?</qtext>
+        <choices>
+            <choice id="1">A hardware component</choice>
+            <choice id="2">An application server and technology platform</choice>
+            <choice id="3">A database</choice>
+            <choice id="4">A user interface tool</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="1" type="single">
+        <qtext>Which tool is used to monitor SAP system performance?</qtext>
+        <choices>
+            <choice id="1">SAP Solution Manager</choice>
+            <choice id="2">SAP GUI</choice>
+            <choice id="3">SAP Business One</choice>
+            <choice id="4">SAP Fiori</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="2" type="multiple">
+        <qtext>Which of the following are typical SAP system landscapes?</qtext>
+        <choices>
+            <choice id="1">Development</choice>
+            <choice id="2">Quality Assurance</choice>
+            <choice id="3">Production</choice>
+            <choice id="4">Training</choice>
+        </choices>
+        <answer>1,2,3,4</answer>
+    </question>
+
+    <question id="3" type="single">
+        <qtext>What is the primary function of SAP Transport Management System (TMS)?</qtext>
+        <choices>
+            <choice id="1">Managing user roles</choice>
+            <choice id="2">Transporting configuration and development objects between systems</choice>
+            <choice id="3">Backup management</choice>
+            <choice id="4">Monitoring system logs</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="4" type="single">
+        <qtext>Which SAP component is responsible for scheduling background jobs?</qtext>
+        <choices>
+            <choice id="1">SAP Job Scheduler (SM36)</choice>
+            <choice id="2">SAP Basis</choice>
+            <choice id="3">SAP Web Dispatcher</choice>
+            <choice id="4">SAP Solution Manager</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="5" type="multiple">
+        <qtext>Which of the following are SAP Basis responsibilities?</qtext>
+        <choices>
+            <choice id="1">System installation and configuration</choice>
+            <choice id="2">User administration</choice>
+            <choice id="3">Developing custom reports</choice>
+            <choice id="4">Transport management</choice>
+        </choices>
+        <answer>1,2,4</answer>
+    </question>
+
+    <question id="6" type="single">
+        <qtext>Which transaction code is used to check the status of SAP background jobs?</qtext>
+        <choices>
+            <choice id="1">SM37</choice>
+            <choice id="2">SM50</choice>
+            <choice id="3">SM21</choice>
+            <choice id="4">ST22</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="7" type="single">
+        <qtext>What is a dump in SAP?</qtext>
+        <choices>
+            <choice id="1">A data backup</choice>
+            <choice id="2">An unexpected runtime error causing program termination</choice>
+            <choice id="3">A transport request</choice>
+            <choice id="4">A database table</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="8" type="multiple">
+        <qtext>Which of the following tools are used for SAP database administration?</qtext>
+        <choices>
+            <choice id="1">DBACOCKPIT</choice>
+            <choice id="2">ST04</choice>
+            <choice id="3">SM59</choice>
+            <choice id="4">DB13</choice>
+        </choices>
+        <answer>1,2,4</answer>
+    </question>
+
+    <question id="9" type="single">
+        <qtext>Which SAP transaction code is used to display system logs?</qtext>
+        <choices>
+            <choice id="1">SM21</choice>
+            <choice id="2">ST22</choice>
+            <choice id="3">SM37</choice>
+            <choice id="4">SM50</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="10" type="single">
+        <qtext>Which SAP transaction is used to monitor work processes?</qtext>
+        <choices>
+            <choice id="1">SM50</choice>
+            <choice id="2">SM66</choice>
+            <choice id="3">SM37</choice>
+            <choice id="4">SM21</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="11" type="multiple">
+        <qtext>Which of the following are SAP security concepts?</qtext>
+        <choices>
+            <choice id="1">Roles</choice>
+            <choice id="2">Profiles</choice>
+            <choice id="3">Users</choice>
+            <choice id="4">Transactions</choice>
+        </choices>
+        <answer>1,2,3,4</answer>
+    </question>
+
+    <question id="12" type="single">
+        <qtext>What is SAP Web Dispatcher used for?</qtext>
+        <choices>
+            <choice id="1">Load balancing and routing of HTTP(S) requests</choice>
+            <choice id="2">Database backup</choice>
+            <choice id="3">User authentication</choice>
+            <choice id="4">Background job scheduling</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="13" type="single">
+        <qtext>What does ST22 transaction code show in SAP?</qtext>
+        <choices>
+            <choice id="1">Background jobs status</choice>
+            <choice id="2">Short dumps (runtime errors)</choice>
+            <choice id="3">System logs</choice>
+            <choice id="4">Active users</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="14" type="multiple">
+        <qtext>Which of the following are common SAP transport request types?</qtext>
+        <choices>
+            <choice id="1">Workbench Request</choice>
+            <choice id="2">Customizing Request</choice>
+            <choice id="3">Support Package</choice>
+            <choice id="4">Data Load Request</choice>
+        </choices>
+        <answer>1,2</answer>
+    </question>
+
+    <question id="15" type="single">
+        <qtext>Which SAP tool is used for system and client copy?</qtext>
+        <choices>
+            <choice id="1">R3load</choice>
+            <choice id="2">DB13</choice>
+            <choice id="3">SM36</choice>
+            <choice id="4">SM37</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="16" type="single">
+        <qtext>Which of these is NOT a typical SAP Basis task?</qtext>
+        <choices>
+            <choice id="1">User administration</choice>
+            <choice id="2">Transport management</choice>
+            <choice id="3">Developing ABAP reports</choice>
+            <choice id="4">System monitoring</choice>
+        </choices>
+        <answer>3</answer>
+    </question>
+
+    <question id="17" type="multiple">
+        <qtext>Which are types of SAP system clients?</qtext>
+        <choices>
+            <choice id="1">Sandbox</choice>
+            <choice id="2">Development</choice>
+            <choice id="3">Quality Assurance</choice>
+            <choice id="4">Production</choice>
+        </choices>
+        <answer>1,2,3,4</answer>
+    </question>
+
+    <question id="18" type="single">
+        <qtext>What is the primary use of SAP Solution Manager?</qtext>
+        <choices>
+            <choice id="1">Software development</choice>
+            <choice id="2">Application lifecycle management</choice>
+            <choice id="3">Database administration</choice>
+            <choice id="4">Network monitoring</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+</exam>

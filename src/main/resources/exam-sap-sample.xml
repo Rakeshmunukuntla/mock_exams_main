@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exam>
+
+    <question id="0" type="single">
+        <qtext>What does SAP stand for?</qtext>
+        <choices>
+            <choice id="1">Systems, Applications, and Products</choice>
+            <choice id="2">Software Application Process</choice>
+            <choice id="3">Systematic Application Program</choice>
+            <choice id="4">Service Application Platform</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="1" type="single">
+        <qtext>Which SAP module is used for managing company financials?</qtext>
+        <choices>
+            <choice id="1">SAP MM</choice>
+            <choice id="2">SAP FI</choice>
+            <choice id="3">SAP SD</choice>
+            <choice id="4">SAP PP</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="2" type="multiple">
+        <qtext>Which of the following are SAP ERP modules?</qtext>
+        <choices>
+            <choice id="1">SAP HR</choice>
+            <choice id="2">SAP BI</choice>
+            <choice id="3">SAP CRM</choice>
+            <choice id="4">SAP Python</choice>
+        </choices>
+        <answer>1,2,3</answer>
+    </question>
+
+    <question id="3" type="single">
+        <qtext>What language is primarily used for SAP custom development?</qtext>
+        <choices>
+            <choice id="1">Java</choice>
+            <choice id="2">Python</choice>
+            <choice id="3">ABAP</choice>
+            <choice id="4">C#</choice>
+        </choices>
+        <answer>3</answer>
+    </question>
+
+    <question id="4" type="single">
+        <qtext>In SAP, what is a client?</qtext>
+        <choices>
+            <choice id="1">A database schema</choice>
+            <choice id="2">A self-contained unit in the SAP system</choice>
+            <choice id="3">An external user</choice>
+            <choice id="4">A software module</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="5" type="multiple">
+        <qtext>Which of these are key features of SAP HANA?</qtext>
+        <choices>
+            <choice id="1">In-memory computing</choice>
+            <choice id="2">Disk-based storage only</choice>
+            <choice id="3">Columnar data storage</choice>
+            <choice id="4">Real-time analytics</choice>
+        </choices>
+        <answer>1,3,4</answer>
+    </question>
+
+    <question id="6" type="single">
+        <qtext>What is SAP Fiori?</qtext>
+        <choices>
+            <choice id="1">A database</choice>
+            <choice id="2">A user experience (UX) design approach</choice>
+            <choice id="3">An ERP module</choice>
+            <choice id="4">A programming language</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="7" type="single">
+        <qtext>Which SAP module handles sales and distribution?</qtext>
+        <choices>
+            <choice id="1">SAP SD</choice>
+            <choice id="2">SAP MM</choice>
+            <choice id="3">SAP FI</choice>
+            <choice id="4">SAP HR</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="8" type="multiple">
+        <qtext>Which of the following are database types supported by SAP HANA?</qtext>
+        <choices>
+            <choice id="1">In-memory row store</choice>
+            <choice id="2">In-memory column store</choice>
+            <choice id="3">Traditional disk-based RDBMS</choice>
+            <choice id="4">NoSQL</choice>
+        </choices>
+        <answer>1,2</answer>
+    </question>
+
+    <question id="9" type="single">
+        <qtext>What does the SAP module PP stand for?</qtext>
+        <choices>
+            <choice id="1">Production Planning</choice>
+            <choice id="2">Product Procurement</choice>
+            <choice id="3">Project Planning</choice>
+            <choice id="4">Process Planning</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="10" type="single">
+        <qtext>Which SAP module is responsible for Human Capital Management?</qtext>
+        <choices>
+            <choice id="1">SAP MM</choice>
+            <choice id="2">SAP HR</choice>
+            <choice id="3">SAP FI</choice>
+            <choice id="4">SAP CO</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="11" type="multiple">
+        <qtext>Which of the following are types of SAP clients?</qtext>
+        <choices>
+            <choice id="1">Development</choice>
+            <choice id="2">Quality Assurance</choice>
+            <choice id="3">Production</choice>
+            <choice id="4">External</choice>
+        </choices>
+        <answer>1,2,3</answer>
+    </question>
+
+    <question id="12" type="single">
+        <qtext>Which SAP module deals with financial controlling?</qtext>
+        <choices>
+            <choice id="1">SAP FI</choice>
+            <choice id="2">SAP CO</choice>
+            <choice id="3">SAP MM</choice>
+            <choice id="4">SAP SD</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="13" type="single">
+        <qtext>Which SAP transaction code is used to display a material master record?</qtext>
+        <choices>
+            <choice id="1">MM01</choice>
+            <choice id="2">MM02</choice>
+            <choice id="3">MM03</choice>
+            <choice id="4">MM04</choice>
+        </choices>
+        <answer>3</answer>
+    </question>
+
+    <question id="14" type="multiple">
+        <qtext>Which of the following are SAP system layers?</qtext>
+        <choices>
+            <choice id="1">Presentation Layer</choice>
+            <choice id="2">Application Layer</choice>
+            <choice id="3">Database Layer</choice>
+            <choice id="4">Cloud Layer</choice>
+        </choices>
+        <answer>1,2,3</answer>
+    </question>
+
+    <question id="15" type="single">
+        <qtext>Which of the following is the SAP database system?</qtext>
+        <choices>
+            <choice id="1">Oracle</choice>
+            <choice id="2">SAP HANA</choice>
+            <choice id="3">MySQL</choice>
+            <choice id="4">PostgreSQL</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="16" type="single">
+        <qtext>What is the SAP module CO used for?</qtext>
+        <choices>
+            <choice id="1">Controlling</choice>
+            <choice id="2">Customer Orders</choice>
+            <choice id="3">Cost Optimization</choice>
+            <choice id="4">Contract Operations</choice>
+        </choices>
+        <answer>1</answer>
+    </question>
+
+    <question id="17" type="multiple">
+        <qtext>Which of these are reporting tools used in SAP?</qtext>
+        <choices>
+            <choice id="1">SAP BW</choice>
+            <choice id="2">SAP BO</choice>
+            <choice id="3">SAP HANA Studio</choice>
+            <choice id="4">SAP Lumira</choice>
+        </choices>
+        <answer>1,2,4</answer>
+    </question>
+
+    <question id="18" type="single">
+        <qtext>What is the primary purpose of SAP Solution Manager?</qtext>
+        <choices>
+            <choice id="1">Application development</choice>
+            <choice id="2">System monitoring and management</choice>
+            <choice id="3">Database management</choice>
+            <choice id="4">User training</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+    <question id="19" type="single">
+        <qtext>Which of the following SAP modules is used for managing procurement processes?</qtext>
+        <choices>
+            <choice id="1">SAP SD</choice>
+            <choice id="2">SAP MM</choice>
+            <choice id="3">SAP FI</choice>
+            <choice id="4">SAP PP</choice>
+        </choices>
+        <answer>2</answer>
+    </question>
+
+</exam>

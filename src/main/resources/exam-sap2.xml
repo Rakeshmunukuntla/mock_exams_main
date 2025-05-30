@@ -1,0 +1,303 @@
+<?xml version="1.0"?>
+<exam>
+    <question id="41">
+        <module>Catalog Management</module>
+        <qtext>If the electronics Product Catalog and apparel Product Catalog (with Staged and Online versions) exist in the system, how many category items will the following ImpEx create?
+
+            Sversion-Staged
+            ScatVersion-catalogVersion (catalog(id[default-prodCat]), version [default-version]}
+            INSERT_UPDATE Category; code[unique-true]; $catVersion[unique-true]
+            test_category; electronics ProductCatalog
+            test_category; apparelProduct Catalog: $version
+            test_category; :Online
+            ;test_category;
+
+        </qtext>
+        <choices>
+            <choice id="A">3</choice>
+            <choice id="B">2</choice>
+            <choice id="C">1</choice>
+            <choice id="D">4</choice>
+        </choices>
+        <answer>A</answer>
+    </question>
+
+    <question id="42">
+        <module>Business Processes</module>
+        <qtext>You are asked to define a new business process, what steps do you perform?</qtext>
+        <qnotes>There are 3 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="A">Define the process in XML format.</choice>
+            <choice id="B">Define actions as new item types.</choice>
+            <choice id="C">Define the actions as spring beans.</choice>
+            <choice id="D">Implement actions in Java code.</choice>
+            <choice id="E">Define the process in BPMN format.</choice>
+        </choices>
+        <answer>A C D</answer>
+        <notes>
+            Link: https://help.sap.com/docs/SAP_COMMERCE/d0224eca81e249cb821f2cdf45a82ace/e546b34e839e4aeab6029726da35adf0.html?q=business%20process
+        </notes>
+    </question>
+
+    <question id="43">
+        <module>Smart Edit</module>
+        <qtext>When defining a merchandising carousel in Smart Edit, based on Intelligent Selling Services, what should you pay attention to?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="A">A product mix can be used in multiple strategies.</choice>
+            <choice id="B">A merchandising carousel can reference one or more product mixes.</choice>
+            <choice id="C">A strategy can reference one or more product mixers.</choice>
+            <choice id="D">A merchandising carousel can use one or more strategies.</choice>
+        </choices>
+        <answer>A C</answer>
+    </question>
+
+    <question id="44">
+        <module>Service Layer</module>
+        <qtext>You are running a transaction that creates an item and updates it twice. If the transaction is committed successfully, how many After Save Event items will the Service Layer create?</qtext>
+        <choices>
+            <choice id="A">This depends on how the geld () method is implemented.</choice>
+            <choice id="B">This depends on how many times the model Service. Save () method is called.</choice>
+            <choice id="C">1</choice>
+            <choice id="D">2</choice>
+        </choices>
+        <answer>C</answer>
+    </question>
+
+    <question id="45">
+        <module>Asynchronous Events</module>
+        <qtext>How can you create asynchronous events in the SAP Commerce Cloud platform?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="A">Change the platformClusterEventSender Spring bean configuration.</choice>
+            <choice id="B">Implement the TransactionAwareEvent interface.</choice>
+            <choice id="C">Implement the Cluster Aware Event interface.</choice>
+            <choice id="D">Extend the Abstract Event class.</choice>
+        </choices>
+        <answer>A C</answer>
+        <notes>
+            Link:	https://learning.sap.com/learning-journeys/expand-upon-technical-essentials-of-sap-commerce-cloud/configuring-asynchronous-events_b825534b-a3b8-4656-adfd-5c7a4079a76f
+        </notes>
+    </question>
+
+    <question id="46">
+        <module>Cart Service</module>
+        <qtext>Which of the following are best practices for adding a new parameter to an existing method of Commerce Cart service?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="A">Overload the existing method of Commerce Cart Service by adding the new parameter.</choice>
+            <choice id="B">Add a new property to Commerce Cart Parameter in a beans.xml file.</choice>
+            <choice id="C">Extend the default implementation of the method to handle the new parameter.</choice>
+            <choice id="D">Extend the default strategy, which is called by the method, to handle the new parameter.</choice>
+        </choices>
+        <answer>A D</answer>
+    </question>
+
+    <question id="47">
+        <module>Widgets</module>
+        <qtext>Which of the following can you configure in a widget definition (definition xml) file?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="A">The default values for widget settings</choice>
+            <choice id="B">The available virtual sockets</choice>
+            <choice id="C">The business logic of the widget with a bean shell script</choice>
+            <choice id="D">The view file</choice>
+        </choices>
+        <answer>A D</answer>
+    </question>
+
+    <question id="48">
+        <module>Order Management</module>
+        <qtext>When a customer places an order using the default order management process that's defined in the yacceleratorfulfillmentprocess extension, when does the fulfillment process send the notification that the order has been placed?</qtext>
+        <choices>
+            <choice id="A">After the payment has been processed</choice>
+            <choice id="B">After the order has been fraud-checked</choice>
+            <choice id="C">After communication with the warehouse</choice>
+            <choice id="D">After the order has been completely sourced</choice>
+        </choices>
+        <answer>B</answer>
+    </question>
+
+    <question id="49">
+        <module>Enumerations</module>
+        <qtext>Where are enumerations stored?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="A">Dynamic enumerations are stored in memory only.</choice>
+            <choice id="B">Dynamic enumerations are stored in the database.</choice>
+            <choice id="C">Non-dynamic enumerations are stored as enumeration classes.</choice>
+            <choice id="D">Non-dynamic enumerations are stored as HybrisEnum'value objects.</choice>
+        </choices>
+        <answer>B C</answer>
+    </question>
+
+    <question id="50">
+        <module>Cloud Portal</module>
+        <qtext>What does the Cloud Portal application enable you to do?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="A">Set up and deploy SAP Commerce Cloud in the public cloud.</choice>
+            <choice id="B">Create and configure endpoints that are tied to configured aspects.</choice>
+            <choice id="C">Generate new passwords for admin and anonymous users.</choice>
+            <choice id="D">Review the page load times of your environments.</choice>
+        </choices>
+        <answer>A B</answer>
+    </question>
+
+    <question id="51">
+        <module>DTOs and Populators</module>
+        <qtext>In an extension named myext, you defined Pump, a subtype of the Product item type with a property named efficiency. You have also extended the product DTO bean to have an efficiency property. To copy the efficiency property to the productDTO, what do you need to do?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+
+        <choices>
+            <choice id="A">Create a PumpPopulator class that extends ProductPopulator and, if necessary, copies the efficiency property from the Pump item to the productDTO bean. In myext-	spring.xml, redefine the productPopulator alias to point to an instance of PumpPopulator.</choice>
+
+            <choice id="B">Write a Pump Attribute Populator class that copies the efficiency property from the item to the DTO only if its method is passed an instance of Pump Model. Define a 	bean for this new class in myext-spring.xml, and use a modify Populator List bean to add it to the product Converter's list of populators.</choice>
+
+            <choice id="C">Make sure the definition of the Pump item type defines the efficiency attribute with the persistence type property. When you run ant all, the product Converter class 	that's generated in bootstrap/gensrc will copy the efficiency property to the productDTO.</choice>
+
+            <choice id="D">Write a PumpProductConverter class that extends AbstractPopulatingConverter, and copy the efficiency property from the Pump item to the productDTO bean if the item 	is an instance of Pump. Use this class to create a pumpProductConverter bean in myext-spring.xml.</choice>
+        </choices>
+
+        <answer>A B</answer>
+    </question>
+
+    <question id="52">
+        <module>Item Localization</module>
+        <qtext>You have these example item types defined in myext-items xml. How would you localize the identification attribute?
+        </qtext>
+        <choices>
+            <choice id="A">Change the type name to "localized Passport". The code generator does the rest.</choice>
+            <choice id="B">Define a relation between Student and Passport using a relation tag with parameter localized="true".</choice>
+            <choice id="C">Define a localized Passport attribute for the Student type in myext/resources/localization/myext locales_XY properties.</choice>
+            <choice id="D">Change the type name to "localized Passport" and create a map type with that name that returns Passport items.</choice>
+        </choices>
+        <answer>D</answer>
+    </question>
+
+    <question id="53">
+        <module>Solr Indexing</module>
+        <qtext>To define the data that gets extracted into the Solr index for searching, what do you need to provide?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="A">A flexible search query for an incremental update</choice>
+            <choice id="B">An ImpEx script for a full load</choice>
+            <choice id="C">A surconfig XML file</choice>
+            <choice id="D">A flexible search query for a full load</choice>
+        </choices>
+        <answer>A D</answer>
+    </question>
+
+    <question id="54">
+        <module>Primary Keys</module>
+        <qtext>In SAP Commerce Cloud, the primary key (PK) is generated automatically and assigned. If you have a PK (for example, 8798093382857), how can you find out which object this PK belongs to?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="A">If the type of the object is known, for example, Product, you can use the following flexible search query: select * from (Product) where pk=8790093382657.</choice>
+            <choice id="B">If the type of the object is known, for example, Product, you just need to use the simple search field in the all-products workspace in Back office to search for the PK directly.</choice>
+            <choice id="C">Use the PK.Analyzer in HAC | Platform to check which object this PK belongs to.</choice>
+            <choice id="D">Use the following flexible search query select from (GenericItem) where pk=8796093382657.</choice>
+        </choices>
+        <answer>B C</answer>
+        <notes>
+            Note: option A query syntax is wrong
+            Link: https://groundlevelhybris.wordpress.com/2020/02/05/pkprimary-key-in-hybris/
+        </notes>
+    </question>
+
+    <question id="55">
+        <module>Product Management</module>
+        <qtext>You set a price for an existing, unpriced product, but when you visit the live site, the "Add to Cart" button is not displayed on the Product Details page. What did you forget to do?</qtext>
+        <choices>
+            <choice id="A">Create a stock entry for the product.</choice>
+            <choice id="B">Verify that the current date falls inside the product's validity period.</choice>
+            <choice id="C">Set the product's approval status attribute to Approved.</choice>
+            <choice id="D">Run a Solr indexer operation in the Backoffice Administration Cockpit.</choice>
+        </choices>
+        <answer>A</answer>
+        <notes>
+            Link: https://community.sap.com/t5/crm-and-cx-questions/add-to-cart-button-is-deactivated/qaq-p/12012998
+        </notes>
+    </question>
+
+    <question id="56">
+        <module>Events</module>
+        <qtext>How can you define a new event?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="A">Create a new DTO in a beans.xml file.</choice>
+            <choice id="B">Create a new Item Type in an items.xml file.</choice>
+            <choice id="C">Create a new Event Template in an ImpEx file.</choice>
+            <choice id="D">Extend a pre-defined event DTO in a custom beans.xml.</choice>
+        </choices>
+        <answer>A D</answer>
+    </question>
+
+    <question id="57">
+        <module>Cron Jobs</module>
+        <qtext>You need to create a Cron Job for an automated task that will be performed every day at midnight. Which steps can you follow?</qtext>
+        <qnotes>There are 3 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="A">Register a ServiceLayerJob bean in your extension's Spring configuration file.</choice>
+            <choice id="B">Define the Job logic in a class that implements the JobPerformable interface or extends its sub-class.</choice>
+            <choice id="C">Define a job bean in your extension's spring configuration file.</choice>
+            <choice id="D">Register a Cronjob bean to refer to the java implementation.</choice>
+            <choice id="E">Create a CronJob item and a trigger for midnight using ImpEx or Backoffice.</choice>
+        </choices>
+        <answer>A B E</answer>
+        <notes>
+            Link: http://javainsimpleway.com/cronjob-example/
+        </notes>
+    </question>
+
+    <question id="58">
+        <module>Items Definitions</module>
+        <qtext>What happens when you use a deployment tag in the items.xml file?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="A">The deployment type code is used as part of the primary key (PK) of the type's items.</choice>
+            <choice id="B">Only non-inherited properties of the enclosing type are stored in the deployment table.</choice>
+            <choice id="C">The name of the deployment table is generated automatically.</choice>
+            <choice id="D">All instances of the enclosing type are stored in the specified database table.</choice>
+        </choices>
+        <answer>A D</answer>
+        <notes>
+            Link: https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/aa417173fe4a4ba5a473c93eb730a417/8bffa9cc86691014bb70ac2d012708bc.html
+        </notes>
+    </question>
+
+    <question id="59">
+        <module>Backoffice Widgets</module>
+        <qtext>What can a "backoffice-widgets.xml contain in the Back-office framework?</qtext>
+        <qnotes>There are 2 correct answers to this question.</qnotes>
+        <choices>
+            <choice id="A">Widget connection</choice>
+            <choice id="B">Virtual socket definition</choice>
+            <choice id="C">Spring beans of Backoffice web context</choice>
+            <choice id="D">Context configuration object definition</choice>
+        </choices>
+        <answer>A B</answer>
+        <notes>
+            Please refer any backoffice-widget.xml in OOTB code.
+            Link: https://help.sap.com/docs/SAP_COMMERCE/5c9ea0c629214e42b727bf08800d8dfa/8bd4366a86691014b818f8dd642790a8.html#loio8bd4366a86691014b818f8dd642790a8
+        </notes>
+    </question>
+
+    <question id="60">
+        <module>Search Restrictions</module>
+        <qtext>Your system contains a search restriction with the following parameters: Type: Product
+            User: employeegroup
+            Restriction: 1=0.
+            There is a product "Candia" in the online catalog and a variant product "PinkCandle" in the online catalog. A user belonging to employeegroup searches for Variant Product instances using Advanced Search with the code as a filter in Backoffice's administration cockpit, this will initiate the following flexible search query: "SELECT (pk) FROM (Variant Product) WHERE (code)="PinkCandle". What happens next?</qtext>
+        <choices>
+            <choice id="A">The flexible search query returns an empty list.</choice>
+            <choice id="B">The flexible search query returns all variant products, except "PinkCandle".</choice>
+            <choice id="C">The flexible search query returns the variant product "Pink Candle".</choice>
+            <choice id="D">The flexible search query returns all instances of Variant Product.</choice>
+        </choices>
+        <answer>A</answer>
+        <notes>
+            Link: https://www.stackextend.com/hybris/use-restrictions-in-sap-hybris/
+        </notes>
+    </question>
+</exam>
